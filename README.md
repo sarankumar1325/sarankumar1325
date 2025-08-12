@@ -13,11 +13,11 @@
 
 ## 💫 About Me
 
-- 🔭 I'm currently working on **Generative AI & Deep Learning**
-- 🌱 I'm currently learning **PyTorch**
-- 👯 I'm looking to collaborate on **Deep Learning Projects**
-- 💬 Ask me about **Python, Machine Learning, AI**
-- 📫 How to reach me: **sarankumar131313@gmail.com**
+-  I'm currently working on **Generative AI & Deep Learning**
+-  I'm currently learning **PyTorch**
+-  I'm looking to collaborate on **Deep Learning Projects**
+-  Ask me about **Python, Machine Learning, AI**
+-  How to reach me: **sarankumar131313@gmail.com**
 
 ## 🌐 Connect with Me
 
