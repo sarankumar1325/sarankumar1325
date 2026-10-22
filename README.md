@@ -77,7 +77,9 @@
 </div>
 <br/>
 <div align="center">
+  
 ### Real-Time Activity & Analytics
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?username=sarankumar1325&show_icons=true&title_color=0A66C2&text_color=c9d1d9&icon_color=0A66C2&bg_color=00000000&hide_border=true&include_all_commits=true&count_private=true" />
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api?username=sarankumar1325&show_icons=true&title_color=0A66C2&text_color=24292f&icon_color=0A66C2&bg_color=00000000&hide_border=true&include_all_commits=true&count_private=true" />
