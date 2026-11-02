@@ -1,126 +1,49 @@
-<div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=0A66C2&center=true&vCenter=true&repeat=false&width=350&height=45&lines=Saran+Kumar+S." alt="Saran Kumar S." />
-<br/>
-<sub>AI &amp; Deep Learning Enthusiast &middot; Building Production GenAI, Advanced RAG &amp; Autonomous Agents</sub>
-<br/><br/>
-<a href="https://linkedin.com/in/saran-kumar-s-sk13022005"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>&nbsp;
-<a href="https://x.com/iamsaranhere"><img src="https://img.shields.io/badge/X-%40iamsaranhere-000000?style=flat-square&logo=x&logoColor=white" /></a>&nbsp;
-<a href="https://github.com/sarankumar1325"><img src="https://img.shields.io/badge/GitHub-sarankumar1325-181717?style=flat-square&logo=github&logoColor=white" /></a>&nbsp;
-<a href="https://kaggle.com/sarankumar132513"><img src="https://img.shields.io/badge/Kaggle-Profile-20BEFF?style=flat-square&logo=kaggle&logoColor=white" /></a>&nbsp;
-<a href="https://leetcode.com/u/sarankumar131313/"><img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=flat-square&logo=leetcode&logoColor=white" /></a>&nbsp;
-<a href="mailto:sarankumar131313@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
-</div>
-<br/>
-<div align="center">
-  
-**Languages**&nbsp;&nbsp;
+<p><a href="https://www.sarankumar.space"><img src="assets/hero.svg" width="100%" alt="Saran Kumar S. AI that holds up. Applied AI engineer at goML in Coimbatore, India. I build agent harnesses and inference pipelines, and test new frontier models against enterprise work."></a></p>
 
-<img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" />
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" />
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+[sarankumar.space](https://www.sarankumar.space) · [Writing](https://www.sarankumar.space/blogs) · [Résumé](https://www.sarankumar.space/resume) · [LinkedIn](https://www.linkedin.com/in/saran-kumar-s-sk13022005) · [X](https://x.com/iamsaranhere) · [Kaggle](https://www.kaggle.com/sarankumar132513) · [LeetCode](https://leetcode.com/u/sarankumar131313/) · [Email](mailto:sarankumar131313@gmail.com)
 
-**AI & ML**&nbsp;&nbsp;
+I'm Saran, 21, an applied AI engineer at [goML](https://www.goml.io) in Coimbatore, India. I started there as an ML engineering intern in June 2025 and moved into applied AI a year later. My days go into agent harnesses, inference on vLLM and Amazon Bedrock, and putting each new frontier model through the kind of work our clients actually do. In the evenings I build tools I want to use, and I write, mostly about models and sometimes about streetlamps.
 
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
-<img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white" />
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/Matplotlib-ffffff?style=flat-square&logo=matplotlib&logoColor=black" />
-<img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" />
-<img src="https://img.shields.io/badge/SciPy-0C55A5?style=flat-square&logo=scipy&logoColor=white" />
-<img src="https://img.shields.io/badge/MLflow-d9ead3?style=flat-square&logo=mlflow&logoColor=blue" />
+<p><a href="https://www.sarankumar.space/resume"><img src="assets/capabilities.svg" width="100%" alt="Most of my week: agent harnesses, frontier model testing, inference on vLLM, agents on Amazon Bedrock, retrieval that cites, LangGraph workflows, full-stack TypeScript."></a></p>
 
-**Web & App**&nbsp;&nbsp;
+**Daily** Python, TypeScript, PyTorch, LangGraph, vLLM, Amazon Bedrock, FastAPI, React, PostgreSQL<br>
+**Also** Go, Next.js, Node.js, Docker, Terraform, Google Cloud, Redis, Supabase, MongoDB, Neo4j, TensorFlow, scikit‑learn, Flutter
 
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
-<img src="https://img.shields.io/badge/Express.js-404d59?style=flat-square&logo=express&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/React_Native-20232a?style=flat-square&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
+<p><a href="https://github.com/sarankumar1325?tab=repositories"><img src="assets/work.svg" width="100%" alt="Selected work: Manicule, QueryShift, Retrace, Shortly, Free for Students, Aetheria PDF, Chronicle Seed, GoML Review Pilot, Mixture-of-Experts, QARAG, MCP from Scratch, UNSLOP, RoastMyCV, Job Insight."></a></p>
 
-**Cloud & Infrastructure**&nbsp;&nbsp;
+<p><a href="https://manicule.online"><img src="assets/manicule.jpg" width="100%" alt="Manicule's editor open on a Markdown document"></a></p>
 
-<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
-<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Terraform-5835CC?style=flat-square&logo=terraform&logoColor=white" />
-<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
-<img src="https://img.shields.io/badge/Netlify-000000?style=flat-square&logo=netlify&logoColor=00C7B7" />
-<img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+**[Manicule](https://manicule.online)** is a quiet Markdown studio. You edit visually, with live decorations, while your plain `.md` file stays the byte-faithful source of truth. Local first, no account. [Source](https://github.com/swsarancodes/Manicule)
 
-**Databases**&nbsp;&nbsp;
+### Products
 
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/MongoDB-4ea94b?style=flat-square&logo=mongodb&logoColor=white" />
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/Firebase-a08021?style=flat-square&logo=firebase&logoColor=ffcd34" />
-<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
-<img src="https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white" />
-<img src="https://img.shields.io/badge/Neo4j-008CC1?style=flat-square&logo=neo4j&logoColor=white" />
+<p><a href="https://www.sarankumar.space"><img src="assets/products.svg" width="100%" alt="Shortly, Free for Students, Chronicle Seed and RoastMyCV, each on its first screen."></a></p>
 
-**Tools**&nbsp;&nbsp;
+- **[Shortly](https://shortlyyy-web.vercel.app)** A URL shortener with workspaces, roles and click analytics. FastAPI, React 19, Neon Postgres, Upstash Redis. [Source](https://github.com/sarankumar1325/url-shortner)
+- **[Free for Students](https://freeforunifolks.vercel.app)** A community-curated directory of free software and services for verified students. [Source](https://github.com/sarankumar1325/FREEFORSTUDENTS)
+- **[Aetheria PDF](https://v0pdftools.vercel.app)** PDF tools that run entirely in your browser: merge, delete pages, encrypt with AES-256. Bun, React. [Source](https://github.com/sarankumar1325/v0pdtools)
+- **[Chronicle Seed](https://chronicleseed.vercel.app)** A digital time capsule. Write to the person you're becoming and seal it until the right moment.
+- **[GoML Review Pilot](https://gomlreviewpilot.vercel.app)** Model-agnostic code review. Swap Gemini 2.5, Lyzr, Kimi K2 and Devstral without changing your workflow.
+- **[RoastMyCV](https://roastmycv-tau.vercel.app)** Candid resume feedback with adjustable intensity and scoring. [Source](https://github.com/sarankumar1325/ROASTMYCV)
+- **[Job Insight](https://jobinsightai.vercel.app)** ATS-ready resumes and career guidance from live job descriptions. [Source](https://github.com/sarankumar1325/JOB-INSIGHT)
 
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub-121011?style=flat-square&logo=github&logoColor=white" />
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />
-<img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" />
-<img src="https://img.shields.io/badge/Anaconda-44A833?style=flat-square&logo=anaconda&logoColor=white" />
-</div>
-<br/>
-<div align="center">
+### Agents, models and research
 
-  ### About Me
-  
-<table>
-<tr><td>🔭 <b>Working on</b></td><td>Generative AI &amp; Deep Learning</td></tr>
-<tr><td>🌱 <b>Learning</b></td><td>PyTorch</td></tr>
-<tr><td>👯 <b>Collaborating on</b></td><td>Deep Learning Projects</td></tr>
-<tr><td>💬 <b>Ask me about</b></td><td>Python, Machine Learning, AI</td></tr>
-<tr><td>📫 <b>Reach me at</b></td><td>sarankumar131313@gmail.com</td></tr>
-</table>
-</div>
-<br/>
-<div align="center">
-  
-### Real-Time Activity & Analytics
+- **[QueryShift](https://github.com/sarankumar1325/pgbot)** Evidence-backed PostgreSQL change intelligence in Go. A Bedrock multi-agent workflow proposes changes, and policy-enforced code stays the execution boundary. Built on [pgrundev/pgbot](https://github.com/pgrundev/pgbot).
+- **[Retrace](https://github.com/swsarancodes/retrace)** Verifiable fact-level unlearning for LLMs. Fine-tune a model, erase one fact on request, then prove it with a verification suite and an audit report.
+- **[Mixture-of-Experts](https://github.com/sarankumar1325/Mixture-of-Experts)** Basic, sparse and shared-expert MoE layers in PyTorch, with routing, load balancing and capacity control.
+- **[QARAG](https://github.com/sarankumar1325/QARAG)** A document assistant: upload files or URLs, ask questions, get streamed answers with cited sources. FastAPI, React.
+- **[MCP from Scratch](https://github.com/sarankumar1325/MCP-FROM-SCRATCH)** A Model Context Protocol server and client in TypeScript, with a Gemini-powered CLI.
+- **[UNSLOP](https://github.com/swsarancodes/UNSLOP-AI)** An agent skill that stops AI from writing like an AI.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?username=sarankumar1325&show_icons=true&title_color=0A66C2&text_color=c9d1d9&icon_color=0A66C2&bg_color=00000000&hide_border=true&include_all_commits=true&count_private=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api?username=sarankumar1325&show_icons=true&title_color=0A66C2&text_color=24292f&icon_color=0A66C2&bg_color=00000000&hide_border=true&include_all_commits=true&count_private=true" />
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=sarankumar1325&show_icons=true&title_color=0A66C2&text_color=c9d1d9&icon_color=0A66C2&bg_color=00000000&hide_border=true&include_all_commits=true&count_private=true" height="175" alt="GitHub Stats" />
-</picture>
-&nbsp;&nbsp;
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=sarankumar1325&title_color=0A66C2&text_color=c9d1d9&bg_color=00000000&hide_border=true&layout=compact&langs_count=6" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=sarankumar1325&title_color=0A66C2&text_color=24292f&bg_color=00000000&hide_border=true&layout=compact&langs_count=6" />
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=sarankumar1325&title_color=0A66C2&text_color=c9d1d9&bg_color=00000000&hide_border=true&layout=compact&langs_count=6" height="175" alt="Top Languages" />
-</picture>
-<br/><br/>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=sarankumar1325&hide_border=true&background=0d1117&ring=0A66C2&fire=0A66C2&currStreakLabel=0A66C2&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=6e7681" />
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=sarankumar1325&hide_border=true&background=ffffff&ring=0A66C2&fire=0A66C2&currStreakLabel=0A66C2&sideLabels=24292f&currStreakNum=24292f&sideNums=24292f&dates=57606a" />
-  <img src="https://streak-stats.demolab.com?user=sarankumar1325&hide_border=true&background=0d1117&ring=0A66C2&fire=0A66C2&currStreakLabel=0A66C2&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=6e7681" alt="GitHub Streak" />
-</picture>
-<br/><br/>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-activity-chart.vercel.app/graph?username=sarankumar1325&bg_color=0d1117&color=0A66C2&line=0A66C2&point=c9d1d9&area=true&hide_border=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-activity-chart.vercel.app/graph?username=sarankumar1325&bg_color=ffffff&color=0A66C2&line=0A66C2&point=24292f&area=true&hide_border=true" />
-  <img src="https://github-activity-chart.vercel.app/graph?username=sarankumar1325&bg_color=ffffff&color=0A66C2&line=0A66C2&point=24292f&area=true&hide_border=true" width="100%" alt="Contribution Graph" />
-</picture>
-</div>
-<br/>
-<div align="center">
-<sub>Always shipping. Always learning.</sub>
-<br/><br/>
-<img src="https://komarev.com/ghpvc/?username=sarankumar1325&color=0A66C2&style=flat-square&label=Profile+Views" alt="Profile Views" />
-</div>
+Some of my newer work lives on my second account, [@swsarancodes](https://github.com/swsarancodes).
+
+### Writing
+
+At goML I put each new frontier model through enterprise work and write up what holds up. This list refreshes every day from [my blog](https://www.sarankumar.space/blogs).
+
+<!-- writing:start -->
+<p><a href="https://www.sarankumar.space/blogs"><img src="assets/writing.svg" width="100%" alt="Latest writing: Claude Opus 5.5, model test, 29 Sep 2026; Grok 4.7, model test, 24 Sep 2026; Harness Engineering for AI Agents, essay, 11 Sep 2026; Muse Spark 1.3, model test, 11 Sep 2026; GPT 6, model test, 8 Sep 2026; Anthropic's Hacker-Opus Test, model test, 4 Sep 2026; Gemini 3.8 Flash, model test, 4 Sep 2026; The Missing Layer Between Your Agent and Production, essay, 26 Aug 2026; The Part of Frontend the LLMs Can't Do, essay, 23 Aug 2026; AI Agent Evaluation for Self-Improving Agent Loops, essay, 21 Aug 2026."></a></p>
+<!-- writing:end -->
+
+<p><a href="mailto:sarankumar131313@gmail.com"><img src="assets/footer.svg" width="100%" alt="Write to me at sarankumar131313@gmail.com"></a></p>
