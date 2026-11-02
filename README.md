@@ -7,15 +7,15 @@
 </picture>
 
 <p>
-<b>2,059</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>859</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>227</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>17</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>2,079</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>878</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>248</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>17</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-a91312ce-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-a91312ce-light.svg">
-  <img src="assets/calendar-a91312ce-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,059 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-02d90958-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-02d90958-light.svg">
+  <img src="assets/calendar-02d90958-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,079 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
-<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/pyinfra">pyinfra</a> on 2 November, 00:25 IST</sub></p>
+<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/pulumi-yaml">pulumi-yaml</a> on 2 November, 21:36 IST</sub></p>
 
 ### Recently merged
 
