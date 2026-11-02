@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51" height="24" viewBox="0 0 51 24" role="img" aria-labelledby="title">
+<title id="title">X</title>
+<style>.i{fill:#1f2328}.m{fill:#59636e}.g{fill:#1a7f37}.is{stroke:#1f2328}.ms{stroke:#59636e}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs><path id="r161" d="M121 0L22 0L295-394L60-729L159-729L285-542L348-445L354-445L417-542L543-729L642-729L409-395L682 0L581 0L427-225L354-337L348-337L274-225L121 0Z"/></defs>
+<g transform="translate(0 17) scale(0.01500)" class="i"><use href="#r161" x="0"/></g>
+<path class="ms" d="M16.6 14.2L24.1 6.7M18.7 6.7H24.1V12" fill="none" stroke-width="1.215" stroke-linecap="square"/>
+</svg>

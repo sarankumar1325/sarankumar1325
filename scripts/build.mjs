@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// Draws the README artwork in assets/ from the fonts, product screenshots and post list in this repo.
-//   node scripts/build.mjs            redraw every panel from data/writing.json
+// Writes README.md and every image in assets/ from the content in this file.
+//   node scripts/build.mjs            redraw everything from data/writing.json
 //   node scripts/build.mjs --refresh  fetch the latest posts from the blog first
 import fs from 'node:fs';
 import path from 'node:path';
@@ -11,39 +11,75 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const at = (...parts) => path.join(ROOT, ...parts);
 const SITE = 'https://www.sarankumar.space';
 
+const PROFILE = {
+  name: 'Saran Kumar',
+  full: 'Saran Kumar S.',
+  email: 'sarankumar131313@gmail.com',
+  intro:
+    "I'm Saran, 21. At [goML](https://www.goml.io) I build agent harnesses on LangGraph and Amazon Bedrock, run inference on vLLM, and put each new frontier model through the kind of work our clients actually do. I joined as an ML engineering intern in June 2025 and became an applied AI engineer a year later. Evenings go into tools I want to use myself, and into writing, mostly about models and sometimes about streetlamps.",
+};
+
+const LINKS = [
+  ['site', 'sarankumar.space', SITE],
+  ['writing', 'Writing', `${SITE}/blogs`],
+  ['resume', 'Résumé', `${SITE}/resume`],
+  ['linkedin', 'LinkedIn', 'https://www.linkedin.com/in/saran-kumar-s-sk13022005'],
+  ['x', 'X', 'https://x.com/iamsaranhere'],
+  ['kaggle', 'Kaggle', 'https://www.kaggle.com/sarankumar132513'],
+  ['leetcode', 'LeetCode', 'https://leetcode.com/u/sarankumar131313/'],
+];
+
+// `about` is the desktop line, `short` the tablet line and `tiny` the phone line.
+const WORK = [
+  { id: 'manicule', name: 'Manicule', about: 'A quiet Markdown studio. Local first.', short: 'Quiet Markdown studio', tiny: 'Markdown studio', stack: 'TypeScript, Rust', url: 'https://manicule.online' },
+  { id: 'queryshift', name: 'QueryShift', about: 'Evidence-backed PostgreSQL change intelligence', short: 'PostgreSQL change intelligence', tiny: 'PostgreSQL changes', stack: 'Go', url: 'https://github.com/sarankumar1325/pgbot' },
+  { id: 'retrace', name: 'Retrace', about: 'Verifiable fact-level unlearning for LLMs', short: 'Fact-level unlearning for LLMs', tiny: 'LLM unlearning', stack: 'Python', url: 'https://github.com/swsarancodes/retrace' },
+  { id: 'shortly', name: 'Shortly', about: 'Short links with workspaces and click analytics', short: 'Short links with analytics', tiny: 'Link shortener', stack: 'TypeScript, Python', url: 'https://shortlyyy-web.vercel.app' },
+  { id: 'moe', name: 'Mixture-of-Experts', about: 'Sparse and shared-expert MoE layers', short: 'Sparse MoE layers', tiny: 'MoE layers', stack: 'PyTorch', url: 'https://github.com/sarankumar1325/Mixture-of-Experts' },
+  { id: 'freeforstudents', name: 'Free for Students', about: 'Free software for verified students', short: 'Free software for students', tiny: 'Student directory', stack: 'TypeScript', url: 'https://freeforunifolks.vercel.app' },
+  { id: 'qarag', name: 'QARAG', about: 'Answers from your documents, with sources', short: 'Cited answers from documents', tiny: 'Cited answers', stack: 'Python', url: 'https://github.com/sarankumar1325/QARAG' },
+  { id: 'aetheria', name: 'Aetheria PDF', about: 'PDF tools that never leave your browser', short: 'In-browser PDF tools', tiny: 'PDF tools', stack: 'TypeScript', url: 'https://v0pdftools.vercel.app' },
+  { id: 'mcp', name: 'MCP from Scratch', about: 'A Model Context Protocol server and client', short: 'MCP server and client', tiny: 'Server and client', stack: 'TypeScript', url: 'https://github.com/sarankumar1325/MCP-FROM-SCRATCH' },
+  { id: 'unslop', name: 'UNSLOP', about: 'An agent skill that stops AI writing like AI', short: 'Stops AI writing like AI', tiny: 'Agent skill', stack: 'Agent skill', url: 'https://github.com/swsarancodes/UNSLOP-AI' },
+  { id: 'more', name: '@swsarancodes', about: 'My second account, where newer work lives', short: 'Where newer work lives', tiny: 'Second account', stack: '', url: 'https://github.com/swsarancodes' },
+];
+
 function loadFont(file) {
   const buf = fs.readFileSync(at('scripts', 'fonts', file));
   return opentype.parse(buf.buffer.slice(buf.byteOffset, buf.byteOffset + buf.byteLength));
 }
 
 // Text is drawn as outlines because an SVG shown through <img> cannot load web fonts.
-const FONTS = { r: loadFont('epilogue-400.woff'), m: loadFont('epilogue-500.woff'), b: loadFont('epilogue-900.woff') };
-const ELLIPSIS = FONTS.r.charToGlyphIndex('…') ? '…' : '...';
+const FONTS = { l: loadFont('mona-sans-300.ttf'), r: loadFont('mona-sans-400.ttf'), m: loadFont('mona-sans-500.ttf') };
 
-const COLOR = {
-  charcoal: '#191919',
-  white: '#ffffff',
-  grey: '#9a9a9a',
-  teal: '#0c7866',
-  red: '#d71e1e',
-  blue: '#1e4bd7',
-  yellow: '#ffe927',
-  black: '#111111',
+// GitHub's own text colours, so the artwork reads as part of the page in either theme.
+const THEMES = {
+  light: { ink: '#1f2328', muted: '#59636e', live: '#1a7f37' },
+  dark: { ink: '#f0f6fc', muted: '#9198a1', live: '#3fb950' },
 };
 
-const W = 1200;
-const M = 56;
-const AXIS = Math.round(W * 0.42);
-const TIGHT = -0.04;
+const W = 846;
 const EASE = 'cubic-bezier(.16,1,.3,1)';
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
-// GitHub's renderer pulls <img> out of <picture>, so each SVG carries its own phone layout.
-// Media queries inside an SVG image measure the rendered image, not the page.
-const PHONE = '.m{display:none}@media (max-width:600px){.d{display:none}.m{display:inline}}';
+// Each image holds five compositions. A media query inside an SVG measures the image as drawn on the
+// page, so each composition takes over where the one before would shrink its text below about 14px.
+// `k` turns a desktop pixel size into viewBox units; `below` is the widest drawing it covers.
+const SIZES = [
+  { cls: 'D', k: 1 },
+  { cls: 'L', k: 1.16, below: 740 },
+  { cls: 'T', k: 1.45, below: 640 },
+  { cls: 'M', k: 1.85, below: 520 },
+  { cls: 'P', k: 2.31, below: 420 },
+];
+const RESPONSIVE = [
+  `${SIZES.slice(1).map(({ cls }) => `.${cls}`).join(',')}{display:none}`,
+  ...SIZES.slice(1).map(({ cls, below }, i) => `@media (max-width:${below}px){.${SIZES[i].cls}{display:none}.${cls}{display:inline}}`),
+].join('');
 const CALM = '@media (prefers-reduced-motion:reduce){*{animation:none!important}}';
 
 const round = (n) => Math.round(n * 10) / 10;
+const sentence = (s) => `${s.replace(/[.\s]+$/, '')}.`;
 const escape = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 function shape(text, face, size, tracking = 0) {
@@ -58,59 +94,33 @@ function shape(text, face, size, tracking = 0) {
     x += (glyph.advanceWidth || 0) * scale;
     const next = glyphs[i + 1];
     if (!next) return;
-    const kern = kerning
-      ? font.position.getKerningValue(kerning, glyph.index, next.index)
-      : font.getKerningValue(glyph, next);
+    const kern = kerning ? font.position.getKerningValue(kerning, glyph.index, next.index) : font.getKerningValue(glyph, next);
     x += kern * scale + tracking * size;
   });
-  return { face, size, placed, width: x };
+  return { face, size, scale, placed, width: x };
 }
 
+// The width of a vertical stroke in Mona Sans Regular, per 1000 units.
+const STEM = (() => { const box = FONTS.r.charToGlyph('l').getBoundingBox(); return box.x2 - box.x1; })();
 const capHeight = (face, size) => (FONTS[face].tables.os2.sCapHeight / FONTS[face].unitsPerEm) * size;
 
-function fitSize(lines, face, tracking, width, max = 400) {
-  const widest = Math.max(...lines.map((line) => shape(line, face, 100, tracking).width));
-  return Math.min(max, Math.floor((100 * width) / widest));
+// The inked extent of a line, so large type can sit on the margin by its edge rather than its side bearing.
+function ink(shaped) {
+  let left = Infinity;
+  let right = -Infinity;
+  for (const { glyph, x } of shaped.placed) {
+    const box = glyph.getBoundingBox();
+    if (box.x1 === box.x2) continue;
+    left = Math.min(left, x + box.x1 * shaped.scale);
+    right = Math.max(right, x + box.x2 * shaped.scale);
+  }
+  return { left, right, width: right - left };
 }
 
-function wrap(text, face, size, width) {
-  const lines = [];
-  let line = '';
-  for (const word of text.split(/\s+/)) {
-    const next = line ? `${line} ${word}` : word;
-    if (line && shape(next, face, size).width > width) {
-      lines.push(line);
-      line = word;
-    } else {
-      line = next;
-    }
-  }
-  if (line) lines.push(line);
-  return lines;
-}
-
-// Minimum-raggedness line breaking: no line is left short just because the next word missed by a little.
-function balance(widths, space, max) {
-  const n = widths.length;
-  const best = new Array(n + 1).fill(Infinity);
-  const from = new Array(n + 1).fill(0);
-  best[0] = 0;
-  for (let end = 1; end <= n; end++) {
-    let width = -space;
-    for (let start = end; start >= 1; start--) {
-      width += widths[start - 1] + space;
-      if (width > max && start < end) break;
-      const slack = Math.max(0, max - width);
-      const cost = best[start - 1] + (end === n ? slack * slack / 4 : slack * slack);
-      if (cost < best[end]) {
-        best[end] = cost;
-        from[end] = start - 1;
-      }
-    }
-  }
-  const lines = [];
-  for (let end = n; end > 0; end = from[end]) lines.unshift([from[end], end]);
-  return lines;
+function fitToWidth(text, face, tracking, width) {
+  const probe = ink(shape(text, face, 100, tracking));
+  const shaped = shape(text, face, (100 * width) / probe.width, tracking);
+  return { shaped, offset: -ink(shaped).left };
 }
 
 function clip(text, face, size, width) {
@@ -118,19 +128,22 @@ function clip(text, face, size, width) {
   const words = text.split(' ');
   while (words.length > 1) {
     words.pop();
-    const cut = `${words.join(' ').replace(/[\s,:;.\-]+$/, '')}${ELLIPSIS}`;
+    const cut = `${words.join(' ').replace(/[\s,:;.\-]+$/, '')}…`;
     if (shape(cut, face, size).width <= width) return cut;
   }
   return text;
 }
 
+const fits = (text, face, size, width) => shape(text, face, size).width <= width;
+const firstFitting = (options, face, size, width) => options.find((t) => fits(t, face, size, width)) ?? null;
+
 class Svg {
-  constructor(height, background, title) {
+  constructor(width, height, title) {
+    this.width = width;
     this.height = height;
-    this.background = background;
     this.title = title;
     this.glyphs = new Map();
-    this.styles = [CALM];
+    this.styles = [];
     this.defs = [];
     this.body = [];
   }
@@ -141,192 +154,46 @@ class Svg {
     return this.glyphs.get(id) ? id : null;
   }
 
-  text(shaped, x, y, { fill, anchor = 'start', className } = {}) {
-    const scale = shaped.size / FONTS[shaped.face].unitsPerEm;
+  text(shaped, x, y, { cls, anchor = 'start' } = {}) {
     const left = anchor === 'end' ? x - shaped.width : x;
     const uses = shaped.placed
       .map(({ glyph, x: gx }) => {
         const id = this.glyph(shaped.face, glyph);
-        return id ? `<use href="#${id}" x="${Math.round(gx / scale)}"/>` : '';
+        return id ? `<use href="#${id}" x="${Math.round(gx / shaped.scale)}"/>` : '';
       })
       .join('');
-    const attrs = `${fill ? ` fill="${fill}"` : ''}${className ? ` class="${className}"` : ''}`;
-    return `<g transform="translate(${round(left)} ${round(y)}) scale(${scale.toFixed(5)})"${attrs}>${uses}</g>`;
+    return `<g transform="translate(${round(left)} ${round(y)}) scale(${shaped.scale.toFixed(5)})"${cls ? ` class="${cls}"` : ''}>${uses}</g>`;
   }
 
-  render() {
-    const paths = [...this.glyphs]
-      .filter(([, d]) => d)
-      .map(([id, d]) => `<path id="${id}" d="${d}"/>`)
-      .join('');
+  // An arrow pointing up and to the right, drawn at the weight of the text it follows.
+  arrow(right, baseline, size, tone) {
+    const cap = capHeight('r', size);
+    const stem = (STEM * size) / 1000;
+    const box = cap * 0.74;
+    const inset = stem / 2;
+    const x2 = right - inset;
+    const y2 = baseline - cap + inset;
+    const x1 = x2 - box + inset;
+    const y1 = y2 + box - inset;
+    const head = box * 0.66;
+    const d = `M${round(x1)} ${round(y1)}L${round(x2)} ${round(y2)}M${round(x2 - head)} ${round(y2)}H${round(x2)}V${round(y2 + head)}`;
+    return { span: box, svg: `<path class="${tone}s" d="${d}" fill="none" stroke-width="${round(stem * 100) / 100}" stroke-linecap="square"/>` };
+  }
+
+  render(theme) {
+    const t = THEMES[theme];
+    const palette = `.i{fill:${t.ink}}.m{fill:${t.muted}}.g{fill:${t.live}}.is{stroke:${t.ink}}.ms{stroke:${t.muted}}`;
+    const paths = [...this.glyphs].filter(([, d]) => d).map(([id, d]) => `<path id="${id}" d="${d}"/>`).join('');
     return [
-      `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${this.height}" width="${W}" height="${this.height}" role="img" aria-labelledby="title">`,
+      `<svg xmlns="http://www.w3.org/2000/svg" width="${this.width}" height="${this.height}" viewBox="0 0 ${this.width} ${this.height}" role="img" aria-labelledby="title">`,
       `<title id="title">${escape(this.title)}</title>`,
-      `<style>${this.styles.join('')}</style>`,
+      `<style>${palette}${this.styles.join('')}${CALM}</style>`,
       `<defs>${paths}${this.defs.join('')}</defs>`,
-      `<rect width="${W}" height="${this.height}" fill="${this.background}"/>`,
       ...this.body,
       '</svg>',
       '',
     ].join('\n');
   }
-}
-
-function hero() {
-  const height = 740;
-  const svg = new Svg(height, COLOR.charcoal, 'Saran Kumar S. AI that holds up. Applied AI engineer at goML in Coimbatore, India.');
-  svg.styles.push(PHONE, `.fade{animation:fade .8s ease-out 1s both}@keyframes fade{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}`);
-  const statement = ['AI that', 'holds up.'];
-  const last = height - 72;
-
-  const statementIn = (cls, x, size) => {
-    svg.styles.push(`@keyframes rise-${cls}{from{transform:translateY(${round(size * 1.3)}px)}to{transform:none}}.rise-${cls}{animation:rise-${cls} .9s ${EASE} both}`);
-    return statement
-      .map((line, i) => {
-        const base = last - (statement.length - 1 - i) * size * 0.9;
-        const id = `line-${cls}${i}`;
-        svg.defs.push(`<clipPath id="${id}"><rect x="0" y="${round(base - size)}" width="${W}" height="${round(size * 1.3)}"/></clipPath>`);
-        const text = svg.text(shape(line, 'b', size, TIGHT), x, base, { fill: COLOR.white });
-        return `<g clip-path="url(#${id})"><g class="rise-${cls}" style="animation-delay:${(0.15 + i * 0.11).toFixed(2)}s">${text}</g></g>`;
-      })
-      .join('');
-  };
-
-  // Desktop: everything hangs from one axis at 42% of the width, with the upper half left empty.
-  const small = 30;
-  const top = M + capHeight('m', small);
-  const sentence = wrap('I build agent harnesses and inference pipelines, and test new frontier models against enterprise work.', 'r', small, AXIS - M - 56);
-  const leading = small * 1.36;
-  const sentenceLines = sentence
-    .map((line, i) => svg.text(shape(line, 'r', small), M, last - (sentence.length - 1 - i) * leading, { fill: COLOR.white }))
-    .join('');
-  const desktop = [
-    svg.text(shape('Saran Kumar S.', 'm', small), M, top, { fill: COLOR.white }),
-    svg.text(shape('Applied AI engineer', 'm', small), AXIS, top, { fill: COLOR.grey }),
-    svg.text(shape('goML, Coimbatore', 'm', small), W - M, top, { fill: COLOR.grey, anchor: 'end' }),
-    `<g class="fade">${sentenceLines}</g>`,
-    statementIn('d', AXIS, fitSize(statement, 'b', TIGHT, W - M - AXIS)),
-  ].join('');
-
-  // Phone: the axis collapses to the margin and the statement takes the full width.
-  const phone = [
-    svg.text(shape('Saran Kumar S.', 'm', 50), M, M + capHeight('m', 50), { fill: COLOR.white }),
-    statementIn('m', M, fitSize(statement, 'b', TIGHT, W - 2 * M)),
-  ].join('');
-
-  svg.body.push(`<g class="d">${desktop}</g>`, `<g class="m">${phone}</g>`);
-  return svg.render();
-}
-
-function capabilities() {
-  const heading = 'Most of my week:';
-  const items = ['Agent harnesses', 'Frontier model testing', 'Inference on vLLM', 'Agents on Amazon Bedrock', 'Retrieval that cites', 'LangGraph workflows', 'Full-stack TypeScript'];
-  const size = fitSize([heading, ...items], 'b', TIGHT, W - 2 * M, 84);
-  const step = size * 1.02;
-  const first = 64 + capHeight('b', size);
-  const height = Math.round(first + items.length * step + 64 + size * 0.22);
-  const svg = new Svg(height, COLOR.teal, `${heading} ${items.join(', ')}.`);
-  svg.body.push(svg.text(shape(heading, 'b', size, TIGHT), W - M, first, { fill: COLOR.yellow, anchor: 'end' }));
-  items.forEach((item, i) => {
-    svg.body.push(svg.text(shape(item, 'b', size, TIGHT), W - M, first + (i + 1) * step, { fill: COLOR.white, anchor: 'end' }));
-  });
-  return svg.render();
-}
-
-const WORK = [
-  'Manicule',
-  'QueryShift',
-  'Retrace',
-  'Shortly',
-  'Free for Students',
-  'Aetheria PDF',
-  'Chronicle Seed',
-  'GoML Review Pilot',
-  'Mixture-of-Experts',
-  'QARAG',
-  'MCP from Scratch',
-  'UNSLOP',
-  'RoastMyCV',
-  'Job Insight',
-];
-
-function work() {
-  const tracking = -0.03;
-  const beat = 2.4;
-  const measure = W - 2 * M;
-  const texts = ['Selected work:', ...WORK.map((name, i) => `${name}${i === WORK.length - 1 ? '.' : ','}`)];
-
-  // The largest size at which every line but the last fills at least two thirds of the measure.
-  let fit;
-  for (let size = 64; size >= 52 && !fit?.even; size--) {
-    const space = shape(' ', 'b', size).width;
-    const units = texts.map((text, i) => ({ text, heading: i === 0, index: i - 1, shaped: shape(text, 'b', size, tracking) }));
-    const lines = balance(units.map((unit) => unit.shaped.width), space, measure).map(([from, to]) => units.slice(from, to));
-    const widths = lines.slice(0, -1).map((row) => row.reduce((sum, unit) => sum + unit.shaped.width, 0) + space * (row.length - 1));
-    fit = { size, space, lines, even: Math.min(...widths) >= measure * 0.66 };
-  }
-  const { size, space, lines } = fit;
-  const step = size * 1.12;
-
-  const first = 72 + capHeight('b', size);
-  const height = Math.round(first + (lines.length - 1) * step + 84);
-  const svg = new Svg(height, COLOR.red, `Selected work: ${WORK.join(', ')}.`);
-  const share = 100 / WORK.length;
-  svg.styles.push(
-    `@keyframes reading{0%{fill:${COLOR.white}}${(share * 0.12).toFixed(2)}%,${(share * 0.88).toFixed(2)}%{fill:${COLOR.yellow}}${share.toFixed(2)}%,100%{fill:${COLOR.white}}}`,
-    `.n{animation:reading ${(beat * WORK.length).toFixed(1)}s linear infinite}`,
-  );
-
-  lines.forEach((row, li) => {
-    const y = first + li * step;
-    let x = M;
-    for (const unit of row) {
-      if (unit.heading) {
-        svg.body.push(svg.text(unit.shaped, x, y, { fill: COLOR.black }));
-      } else {
-        const delay = (0.8 + unit.index * beat).toFixed(1);
-        svg.body.push(`<g class="n" fill="${COLOR.white}" style="animation-delay:${delay}s">${svg.text(unit.shaped, x, y)}</g>`);
-      }
-      x += unit.shaped.width + space;
-    }
-  });
-  return svg.render();
-}
-
-const PRODUCTS = [
-  ['Shortly', 'Link shortener', 'shortly'],
-  ['Free for Students', 'Directory', 'freeforstudents'],
-  ['Chronicle Seed', 'Time capsule', 'chronicle'],
-  ['RoastMyCV', 'Résumé feedback', 'roastmycv'],
-];
-
-function products() {
-  const gap = 24;
-  const tileW = (W - 2 * M - gap) / 2;
-  const tileH = tileW / 1.6;
-  const band = 88;
-  const height = Math.round(M + 2 * (tileH + band) + 14);
-  const svg = new Svg(height, COLOR.charcoal, `${PRODUCTS.map(([name]) => name).join(', ')}, each on its first screen.`);
-  svg.styles.push(PHONE);
-  const desktop = [];
-  const phone = [];
-  PRODUCTS.forEach(([name, what, file], i) => {
-    const x = M + (i % 2) * (tileW + gap);
-    const y = M + Math.floor(i / 2) * (tileH + band);
-    const data = fs.readFileSync(at('scripts', 'shots', `${file}.jpg`)).toString('base64');
-    svg.body.push(
-      `<image href="data:image/jpeg;base64,${data}" x="${round(x)}" y="${round(y)}" width="${round(tileW)}" height="${round(tileH)}" preserveAspectRatio="xMidYMid slice"/>`,
-    );
-    const label = shape(name, 'm', 30);
-    const note = shape(what, 'r', 30);
-    desktop.push(svg.text(label, x, y + tileH + 46, { fill: COLOR.white }));
-    if (label.width + 40 + note.width <= tileW) {
-      desktop.push(svg.text(note, x + tileW, y + tileH + 46, { fill: COLOR.grey, anchor: 'end' }));
-    }
-    phone.push(svg.text(shape(name, 'm', 52), x, y + tileH + 66, { fill: COLOR.white }));
-  });
-  svg.body.push(`<g class="d">${desktop.join('')}</g>`, `<g class="m">${phone.join('')}</g>`);
-  return svg.render();
 }
 
 function describe(post) {
@@ -342,92 +209,194 @@ function describe(post) {
   else if (/\boverview\b/i.test(title)) kind = 'Overview';
   const short = MONTHS[date.getMonth()].slice(0, 3);
   return {
+    url: post.url,
     label,
     kind,
     day: `${date.getDate()} ${short}`,
     full: `${date.getDate()} ${short} ${date.getFullYear()}`,
-    month: `${MONTHS[date.getMonth()]} ${date.getFullYear()}`,
+    long: `${date.getDate()} ${MONTHS[date.getMonth()]} ${date.getFullYear()}`,
   };
 }
 
-function writing(posts) {
-  const rows = posts.slice(0, 10).map(describe);
-  const svg = new Svg(0, COLOR.blue, `Latest writing: ${rows.map((r) => `${r.label} (${r.kind.toLowerCase()}, ${r.full})`).join('; ')}.`);
-  svg.styles.push(PHONE, '.soft{opacity:.78}');
+// The name across the full measure, then two columns hung from the start of each word.
+function hero(latest) {
+  const height = 236;
+  const svg = new Svg(W, height, `${PROFILE.full}, applied AI engineer at goML in Coimbatore, India. Latest model test: ${latest.label}, ${latest.long}.`);
+  const tracking = -0.02;
+  const { shaped: mark, offset } = fitToWidth(PROFILE.name, 'l', tracking, W);
+  const base = Math.round(6 + capHeight('l', mark.size));
+  const k = mark.placed.find(({ glyph }) => glyph.unicode === 'K'.charCodeAt(0));
+  const column = round(offset + k.x + k.glyph.getBoundingBox().x1 * mark.scale);
 
-  // Desktop: a line-up at one size; the fixed column starts do the organising.
-  const size = 30;
-  const kindX = Math.round(W * 0.66);
-  const desktop = [];
-  let y = 72 + capHeight('r', size);
-  let month = null;
-  for (const row of rows) {
-    if (row.month !== month) {
-      if (month !== null) y += 56;
-      desktop.push(svg.text(shape(row.month, 'r', size), M, y, { fill: COLOR.yellow }));
-      y += 52;
-      month = row.month;
-    }
-    desktop.push(
-      svg.text(shape(clip(row.label, 'r', size, kindX - M - 40), 'r', size), M, y, { fill: COLOR.white }),
-      svg.text(shape(row.kind, 'r', size), kindX, y, { fill: COLOR.white }),
-      svg.text(shape(row.day, 'r', size), W - M, y, { fill: COLOR.white, anchor: 'end' }),
-    );
-    y += 45;
+  svg.styles.push(
+    `.up{animation:up 1.1s ${EASE} both}@keyframes up{from{transform:translateY(1150px)}to{transform:none}}`,
+    '.fade{animation:fade .9s ease-out .75s both}@keyframes fade{from{opacity:0}to{opacity:1}}',
+    '.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.6s ease-out 1.6s infinite both}@keyframes pulse{0%{transform:scale(1);opacity:.55}70%,100%{transform:scale(2.8);opacity:0}}',
+    RESPONSIVE,
+  );
+
+  // Each letter rises from behind its own baseline.
+  svg.defs.push(`<clipPath id="mask"><rect x="-10" y="-10" width="${W + 20}" height="${round(base + mark.size * 0.08 + 10)}"/></clipPath>`);
+  let i = 0;
+  const letters = mark.placed
+    .map(({ glyph, x }) => {
+      const id = svg.glyph('l', glyph);
+      if (!id) return '';
+      const delay = (0.12 + i++ * 0.045).toFixed(3);
+      return `<g class="up" style="animation-delay:${delay}s"><use href="#${id}" x="${Math.round(x / mark.scale)}"/></g>`;
+    })
+    .join('');
+  svg.body.push(`<g clip-path="url(#mask)"><g class="i" transform="translate(${round(offset)} ${base}) scale(${mark.scale.toFixed(5)})">${letters}</g></g>`);
+
+  // Longest first; each composition takes the first pair whose lines both fit their column.
+  const left = [
+    ['Applied AI engineer at goML', 'Coimbatore, India'],
+    ['Applied AI engineer', 'goML, Coimbatore'],
+    ['AI engineer', 'goML'],
+  ];
+  const right = [
+    [latest.label, `Latest model test, ${latest.full}`],
+    [latest.label, 'Latest model test'],
+    [latest.label, 'Latest test'],
+  ];
+  const choose = (pairs, size, limit) =>
+    pairs.find((pair) => pair.every((t) => fits(t, 'r', size, limit))) ?? pairs.at(-1).map((t) => clip(t, 'r', size, limit));
+
+  for (const { cls, k: scale } of SIZES) {
+    const size = 16 * scale;
+    const first = base + 40 - (scale - 1) * 8 + capHeight('r', size);
+    const lead = size * (1.5 - 0.1 * (scale - 1));
+    const [l1, l2] = choose(left, size, column - 24 * scale);
+    const [r1, r2] = choose(right, size, W - column);
+    const lines = [
+      svg.text(shape(l1, 'r', size), 0, first, { cls: 'i' }),
+      svg.text(shape(l2, 'r', size), 0, first + lead, { cls: 'm' }),
+      svg.text(shape(r1, 'r', size), column, first, { cls: 'i' }),
+      svg.text(shape(r2, 'r', size), column, first + lead, { cls: 'm' }),
+    ];
+    // The live dot hangs in the gutter so both columns keep their edges.
+    const r = 3.4 * scale;
+    const dx = round(column - 14 * scale);
+    const dy = round(first - capHeight('r', size) / 2);
+    const dot = `<circle class="g pulse" cx="${dx}" cy="${dy}" r="${round(r)}"/><circle class="g" cx="${dx}" cy="${dy}" r="${round(r)}"/>`;
+    svg.body.push(`<g class="${cls}"><g class="fade">${lines.join('')}${dot}</g></g>`);
   }
-  svg.height = Math.round(y - 45 + 72);
-
-  // Phone: fewer entries, each on two lines, large enough to read at a third of the size.
-  const big = 60;
-  const meta = 46;
-  const head = M + capHeight('m', big);
-  const phone = [svg.text(shape('Latest writing', 'm', big), M, head, { fill: COLOR.yellow })];
-  // The entries share the height under the heading evenly, so the last one lands on the bottom margin.
-  const firstTitle = head + 140;
-  const lastTitle = svg.height - M - 58;
-  const count = Math.max(1, Math.min(rows.length, Math.floor((lastTitle - firstTitle) / 162) + 1));
-  const stepY = count > 1 ? (lastTitle - firstTitle) / (count - 1) : 0;
-  rows.slice(0, count).forEach((row, i) => {
-    const py = firstTitle + i * stepY;
-    phone.push(
-      svg.text(shape(clip(row.label, 'm', big, W - 2 * M), 'm', big), M, py, { fill: COLOR.white }),
-      svg.text(shape(`${row.kind}, ${row.full}`, 'r', meta), M, py + 58, { fill: COLOR.white, className: 'soft' }),
-    );
-  });
-
-  svg.body.push(`<g class="d">${desktop.join('')}</g>`, `<g class="m">${phone.join('')}</g>`);
-  return svg.render();
+  return svg;
 }
 
-function footer() {
-  const height = 720;
-  const svg = new Svg(height, COLOR.yellow, 'Write to me at sarankumar131313@gmail.com');
-  svg.styles.push(PHONE);
-  const lines = ['sarankumar131313', '@gmail.com'];
-  const size = fitSize(lines, 'b', TIGHT, W - 2 * M, 220);
-  const last = height - 150;
-  const display = lines
-    .map((line, i) => svg.text(shape(line, 'b', size, TIGHT), M, last - (lines.length - 1 - i) * size * 0.92, { fill: COLOR.black }))
-    .join('');
-  const small = 30;
-  const top = M + capHeight('m', small);
-  const bottom = height - M;
-  const notes = [
-    ['Saran Kumar S.', M, top, 'start'],
-    ['Applied AI engineer', AXIS, top, 'start'],
-    ['goML, Coimbatore', W - M, top, 'end'],
-    ['Write any time', M, bottom, 'start'],
-    ['Set in Epilogue', AXIS, bottom, 'start'],
-    ['IST, UTC+5:30', W - M, bottom, 'end'],
-  ]
-    .map(([text, x, y, anchor]) => svg.text(shape(text, 'm', small), x, y, { fill: COLOR.black, anchor }))
-    .join('');
-  const phone = [
-    svg.text(shape('Saran Kumar S.', 'm', 50), M, M + capHeight('m', 50), { fill: COLOR.black }),
-    svg.text(shape('Write any time', 'm', 50), M, bottom, { fill: COLOR.black }),
-  ].join('');
-  svg.body.push(display, `<g class="d">${notes}</g>`, `<g class="m">${phone}</g>`);
-  return svg.render();
+function chip(label) {
+  const size = 15;
+  const shaped = shape(label, 'r', size);
+  const height = 24;
+  const baseline = 17;
+  const svg = new Svg(0, height, label);
+  const arrow = svg.arrow(shaped.width + 6 + capHeight('r', size) * 0.74, baseline, size, 'm');
+  svg.width = Math.ceil(shaped.width + 6 + arrow.span + 26);
+  svg.body.push(svg.text(shaped, 0, baseline, { cls: 'i' }), arrow.svg);
+  return svg;
+}
+
+const HEAD = 88;
+const headBaseline = (k) => HEAD - 22 - (k - 1) * 6;
+
+function headingParts(svg, label, more, k, { arrow = true } = {}) {
+  const size = 16 * k;
+  const y = headBaseline(k);
+  const parts = [svg.text(shape(label, 'r', size), 0, y, { cls: 'm' })];
+  if (more) {
+    const mark = arrow ? svg.arrow(W, y, size, 'm') : null;
+    const right = mark ? W - mark.span - 6 * k : W;
+    parts.push(svg.text(shape(more, 'r', size), right, y, { cls: 'm', anchor: 'end' }));
+    if (mark) parts.push(mark.svg);
+  }
+  return parts;
+}
+
+function heading(label, more) {
+  const svg = new Svg(W, HEAD, more ? `${label}. ${more}.` : label);
+  svg.styles.push(RESPONSIVE);
+  for (const { cls, k } of SIZES) svg.body.push(`<g class="${cls}">${headingParts(svg, label, more, k).join('')}</g>`);
+  return svg;
+}
+
+const ROW = 56;
+
+// `layout` returns the row's parts for one composition; a part without `x` is set flush right, before the arrow.
+function row(title, layout) {
+  const svg = new Svg(W, ROW, title);
+  svg.styles.push(RESPONSIVE);
+  for (const { cls, k } of SIZES) {
+    const size = 16 * k;
+    const y = round(ROW / 2 + capHeight('r', size) / 2);
+    const arrow = svg.arrow(W, y, size, 'm');
+    const end = W - arrow.span - 16 * k;
+    const parts = [arrow.svg];
+    for (const part of layout(k, size, end)) {
+      if (!part.text) continue;
+      const shaped = shape(part.text, part.face ?? 'r', size);
+      parts.push(svg.text(shaped, part.x ?? end, y, { cls: part.tone, anchor: part.x === undefined ? 'end' : 'start' }));
+    }
+    svg.body.push(`<g class="${cls}">${parts.join('')}</g>`);
+  }
+  return svg;
+}
+
+// Desktop columns sit on quarters of the measure; narrower compositions measure the longest name instead.
+const GRID = { second: 211.5, fourth: 634.5 };
+const nameColumn = (k) => Math.ceil(Math.max(...WORK.map((item) => shape(item.name, 'm', 16 * k).width)) + 28 * k);
+
+function workRow(item) {
+  const title = `${item.name}: ${sentence(item.about)}${item.stack ? ` ${sentence(item.stack)}` : ''}`;
+  return row(title, (k, size, end) => {
+    const name = { text: item.name, face: 'm', x: 0, tone: 'i' };
+    const lines = [item.about, item.short, item.tiny];
+    if (k <= 1.2) {
+      const x = Math.max(GRID.second, nameColumn(k));
+      return [
+        name,
+        { text: firstFitting(lines, 'r', size, GRID.fourth - x - 20 * k), x, tone: 'm' },
+        { text: item.stack && clip(item.stack, 'r', size, end - GRID.fourth), x: GRID.fourth, tone: 'm' },
+      ];
+    }
+    if (k <= 1.9) {
+      const x = nameColumn(k);
+      return [name, { text: firstFitting(lines, 'r', size, end - x), x, tone: 'm' }];
+    }
+    const room = end - shape(item.name, 'm', size).width - 24 * k;
+    return [name, { text: firstFitting([item.short, item.tiny], 'r', size, room), tone: 'm' }];
+  });
+}
+
+function writingRow(entry) {
+  return row(`${entry.label}, ${entry.kind.toLowerCase()}, ${entry.long}.`, (k, size, end) => {
+    if (k <= 1.2) {
+      return [
+        { text: clip(entry.label, 'r', size, GRID.fourth - 24 * k), x: 0, tone: 'i' },
+        { text: entry.kind, x: GRID.fourth, tone: 'm' },
+        { text: entry.day, tone: 'm' },
+      ];
+    }
+    if (k <= 1.9) {
+      const day = shape(entry.day, 'r', size).width;
+      return [
+        { text: clip(entry.label, 'r', size, end - day - 32 * k), x: 0, tone: 'i' },
+        { text: entry.day, tone: 'm' },
+      ];
+    }
+    return [{ text: clip(entry.label, 'r', size, end), x: 0, tone: 'i' }];
+  });
+}
+
+// The close: the address set like the name at the top, under a label in the heading style.
+function closing() {
+  const { shaped, offset } = fitToWidth(PROFILE.email, 'l', -0.01, W);
+  const base = Math.round(HEAD + 14 + capHeight('l', shaped.size));
+  const height = Math.round(base + shaped.size * 0.26);
+  const svg = new Svg(W, height, `Write to me at ${PROFILE.email}. IST, UTC+5:30.`);
+  svg.styles.push(RESPONSIVE);
+  for (const { cls, k } of SIZES) svg.body.push(`<g class="${cls}">${headingParts(svg, 'Write to me', 'IST, UTC+5:30', k, { arrow: false }).join('')}</g>`);
+  svg.body.push(svg.text(shaped, offset, base, { cls: 'i' }));
+  return svg;
 }
 
 function decode(s) {
@@ -468,32 +437,76 @@ async function refresh() {
   console.log(`Saved ${posts.length} posts.`);
 }
 
-function updateReadme(posts) {
-  const file = at('README.md');
-  const readme = fs.readFileSync(file, 'utf8');
-  const rows = posts.slice(0, 10).map(describe);
-  const alt = `Latest writing: ${rows.map((r) => `${r.label}, ${r.kind.toLowerCase()}, ${r.full}`).join('; ')}.`;
-  const block = `<!-- writing:start -->\n<p><a href="${SITE}/blogs"><img src="assets/writing.svg" width="100%" alt="${escape(alt)}"></a></p>\n<!-- writing:end -->`;
-  if (!/<!-- writing:start -->[\s\S]*?<!-- writing:end -->/.test(readme)) {
-    console.warn('README.md has no writing markers; left it alone.');
-    return;
-  }
-  fs.writeFileSync(file, readme.replace(/<!-- writing:start -->[\s\S]*?<!-- writing:end -->/, block));
+// GitHub hides a link whose address ends in #gh-light-mode-only or #gh-dark-mode-only in the other
+// theme. Unlike <picture>, which GitHub takes apart inside a link, this keeps each image clickable.
+function themed(name, href, svg, alt) {
+  const size = `width="${svg.width}" height="${svg.height}"`;
+  return ['light', 'dark']
+    .map((theme) => `<a href="${escape(`${href}#gh-${theme}-mode-only`)}"><img src="assets/${name}-${theme}.svg" ${size} align="top" alt="${escape(alt)}"></a>`)
+    .join('');
 }
 
 if (process.argv.includes('--refresh')) await refresh();
-const posts = JSON.parse(fs.readFileSync(at('data', 'writing.json'), 'utf8'));
-fs.mkdirSync(at('assets'), { recursive: true });
-const panels = {
-  'hero.svg': hero(),
-  'capabilities.svg': capabilities(),
-  'work.svg': work(),
-  'products.svg': products(),
-  'writing.svg': writing(posts),
-  'footer.svg': footer(),
-};
-for (const [name, svg] of Object.entries(panels)) {
-  fs.writeFileSync(at('assets', name), svg);
-  console.log(`assets/${name}  ${(svg.length / 1024).toFixed(0)} KB`);
+const posts = JSON.parse(fs.readFileSync(at('data', 'writing.json'), 'utf8')).map(describe);
+const latest = posts.find((post) => post.kind === 'Model test') ?? posts[0];
+
+const art = new Map();
+const add = (name, svg) => art.set(name, svg);
+const block = (lines) => `<p>\n${lines.join('<br>\n')}\n</p>`;
+
+add('hero', hero(latest));
+const heroHtml = themed('hero', SITE, art.get('hero'), art.get('hero').title);
+
+const chips = LINKS.map(([id, label, href]) => {
+  add(`link-${id}`, chip(label));
+  return themed(`link-${id}`, href, art.get(`link-${id}`), label);
+});
+
+add('work', heading('Selected work', 'All repositories'));
+const workLines = [themed('work', 'https://github.com/sarankumar1325?tab=repositories', art.get('work'), 'Selected work. All repositories.')];
+for (const item of WORK) {
+  add(`work-${item.id}`, workRow(item));
+  workLines.push(themed(`work-${item.id}`, item.url, art.get(`work-${item.id}`), art.get(`work-${item.id}`).title));
 }
-updateReadme(posts);
+
+add('writing', heading('Writing', 'All posts'));
+const writingLines = [themed('writing', `${SITE}/blogs`, art.get('writing'), 'Writing. All posts.')];
+posts.slice(0, 6).forEach((entry, i) => {
+  add(`writing-${i + 1}`, writingRow(entry));
+  writingLines.push(themed(`writing-${i + 1}`, entry.url, art.get(`writing-${i + 1}`), art.get(`writing-${i + 1}`).title));
+});
+
+// The ?ref=github ends the address before GitHub's theme fragment, so a mail app that keeps the
+// fragment reads it as an unknown header and ignores it instead of mangling the address.
+add('contact', closing());
+const contactLines = [themed('contact', `mailto:${PROFILE.email}?ref=github`, art.get('contact'), art.get('contact').title)];
+
+fs.rmSync(at('assets'), { recursive: true, force: true });
+fs.mkdirSync(at('assets'), { recursive: true });
+let bytes = 0;
+for (const [name, svg] of art) {
+  for (const theme of ['light', 'dark']) {
+    const out = svg.render(theme);
+    bytes += out.length;
+    fs.writeFileSync(at('assets', `${name}-${theme}.svg`), out);
+  }
+}
+
+const readme = [
+  '<!-- Written by scripts/build.mjs. Edit the content there, then run `npm run build`. -->',
+  '',
+  `<p>${heroHtml}</p>`,
+  '',
+  PROFILE.intro,
+  '',
+  `<p>${chips.join('')}</p>`,
+  '',
+  block(workLines),
+  '',
+  block(writingLines),
+  '',
+  block(contactLines),
+  '',
+].join('\n');
+fs.writeFileSync(at('README.md'), readme);
+console.log(`${art.size * 2} images, ${(bytes / 1024).toFixed(0)} KB; README.md written.`);
