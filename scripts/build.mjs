@@ -4,6 +4,7 @@
 //   node scripts/build.mjs            rewrite the README from data/activity.json
 //   node scripts/build.mjs --refresh  fetch the latest activity from GitHub first
 import { execFileSync } from 'node:child_process';
+import { createHash } from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -301,12 +302,15 @@ sections.push(`<p>\n${figures.map(keep).join(SEP)}\n</p>`);
 
 const accounts = ACCOUNTS.map((a) => `@${a}`).join(' and ');
 const graphTitle = `Contribution graph for the last 12 months: ${number(total)} contributions across ${accounts}.`;
+// The graph's address carries a fingerprint of its data: a change in the data is a change in the
+// address, so no visitor is ever shown a cached graph that no longer matches.
+const graph = `calendar-${createHash('sha256').update(JSON.stringify([data.calendar.start, data.calendar.counts])).digest('hex').slice(0, 8)}`;
 const notes = [`Counting ${ACCOUNTS.map(profile).join(' and ')}`];
 if (data.push) {
   const when = local(data.push.at, { day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).replace(' at ', ', ');
   notes.push(`last push to <a href="https://github.com/${data.push.repo}">${escape(ownName(data.push.repo))}</a> on ${when} IST`);
 }
-sections.push(`${picture('calendar', 'svg', graphTitle, W)}\n<p><sub>${notes.join(SEP)}</sub></p>`);
+sections.push(`${picture(graph, 'svg', graphTitle, W)}\n<p><sub>${notes.join(SEP)}</sub></p>`);
 
 if (pulls.length) {
   const search = `https://github.com/search?q=${encodeURIComponent(`${ACCOUNTS.map((a) => `author:${a}`).join(' ')} is:pr is:merged`)}&type=pullrequests`;
@@ -329,7 +333,7 @@ if (repos.length) {
 
 // Only files this script owns are replaced; the pond GIFs in assets/ are left alone.
 for (const file of fs.readdirSync(at('assets'))) if (file.endsWith('.svg')) fs.rmSync(at('assets', file));
-for (const theme of ['light', 'dark']) fs.writeFileSync(at('assets', `calendar-${theme}.svg`), calendar(days, theme, graphTitle));
+for (const theme of ['light', 'dark']) fs.writeFileSync(at('assets', `${graph}-${theme}.svg`), calendar(days, theme, graphTitle));
 for (const [file, svg] of Object.entries(ICONS)) fs.writeFileSync(at('assets', file), svg);
 
 const readme = ['<!-- Written by scripts/build.mjs from data/activity.json; the pond is drawn by scripts/pond.mjs. -->', '', ...sections.flatMap((s) => [s, ''])].join('\n');

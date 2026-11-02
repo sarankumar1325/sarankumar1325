@@ -11,9 +11,9 @@
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-light.svg">
-  <img src="assets/calendar-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,059 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-a91312ce-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-a91312ce-light.svg">
+  <img src="assets/calendar-a91312ce-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,059 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
 <p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/pyinfra">pyinfra</a> on 2 November, 00:25 IST</sub></p>
 
