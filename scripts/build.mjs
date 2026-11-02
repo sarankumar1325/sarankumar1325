@@ -535,28 +535,35 @@ fragment repos on ContributionsCollection {
   }
 }`;
 
-const PULLS = `query($login: String!, $after: String) {
-  user(login: $login) {
-    contributionsCollection {
-      pullRequestContributions(first: 100, after: $after) {
-        pageInfo { hasNextPage endCursor }
-        nodes { pullRequest { number title url merged mergedAt repository { nameWithOwner isPrivate stargazerCount owner { login } } } }
-      }
-    }
+// Search finds merged pull requests far more cheaply than paging through every contribution, which
+// trips GitHub's secondary rate limit for the token Actions provides.
+const SEARCH = `query($merged: String!, $recent: String!, $after: String, $count: Boolean!) {
+  merged: search(type: ISSUE, query: $merged, first: 1) @include(if: $count) { issueCount }
+  recent: search(type: ISSUE, query: $recent, first: 100, after: $after) {
+    pageInfo { hasNextPage endCursor }
+    nodes { ... on PullRequest { number title url mergedAt repository { nameWithOwner stargazerCount } } }
   }
 }`;
 
 async function refresh() {
   const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || execFileSync('gh', ['auth', 'token'], { encoding: 'utf8' }).trim();
   const headers = { authorization: `bearer ${token}`, 'user-agent': `${ACCOUNTS[0]}-profile-readme` };
+  const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+  let last = 0;
   const call = async (url, init, read) => {
     for (let attempt = 1; ; attempt++) {
+      // Bursts are what set off the secondary rate limit, so requests go out at least a second apart.
+      await sleep(Math.max(0, last + 1000 - Date.now()));
+      last = Date.now();
       const response = await fetch(url, { ...init, headers: { ...headers, ...init.headers } });
       const body = await response.json().catch(() => null);
       const failure = !response.ok ? `${response.status} ${JSON.stringify(body)?.slice(0, 300)}` : body?.errors ? JSON.stringify(body.errors).slice(0, 300) : null;
       if (!failure) return read(body);
-      if (attempt === 3 || (response.status >= 400 && response.status < 500)) throw new Error(`${url} failed: ${failure}`);
-      await new Promise((resolve) => setTimeout(resolve, attempt * 2000));
+      const limited = ([403, 429].includes(response.status) && /rate limit/i.test(failure)) || body?.errors?.some((e) => e.type === 'RATE_LIMITED');
+      if (attempt === 4 || !(limited || response.status >= 500)) throw new Error(`${url} failed: ${failure}`);
+      const wait = Number(response.headers.get('retry-after')) || (limited ? 60 * attempt : 2 * attempt);
+      console.log(`GitHub answered ${response.status}; trying again in ${wait}s.`);
+      await sleep(wait * 1000);
     }
   };
   const graphql = (query, variables) =>
@@ -564,6 +571,7 @@ async function refresh() {
 
   const now = Date.now();
   const since = (days) => new Date(now - days * DAY).toISOString();
+  const outside = ACCOUNTS.map((a) => `-user:${a}`).join(' ');
   const calendar = new Map();
   const repos = { month: new Map(), quarter: new Map() };
   const pulls = [];
@@ -592,18 +600,22 @@ async function refresh() {
       }
     }
 
+    // Every merged pull request opened this year counts; the list only wants other people's repositories.
+    const queries = {
+      merged: `author:${login} is:pr is:merged is:public created:>=${since(365).slice(0, 10)}`,
+      recent: `author:${login} is:pr is:merged is:public merged:>=${since(60).slice(0, 10)} ${outside}`,
+    };
     let after = null;
     do {
-      const page = (await graphql(PULLS, { login, after })).user.contributionsCollection.pullRequestContributions;
-      for (const { pullRequest: pr } of page.nodes) {
-        if (!pr?.merged || !pr.repository || pr.repository.isPrivate) continue;
-        merged += 1;
-        if (ACCOUNTS.includes(pr.repository.owner.login)) continue;
+      const result = await graphql(SEARCH, { ...queries, after, count: after === null });
+      if (result.merged) merged += result.merged.issueCount;
+      for (const pr of result.recent.nodes) {
+        if (!pr?.repository || !pr.mergedAt) continue;
         const stars = pr.repository.stargazerCount;
         // Stars are kept at the precision they are shown with, so the data only changes when the picture does.
         pulls.push({ repo: pr.repository.nameWithOwner, number: pr.number, title: pr.title, url: pr.url, stars: stars >= 1000 ? Math.round(stars / 100) * 100 : stars, mergedAt: pr.mergedAt });
       }
-      after = page.pageInfo.hasNextPage ? page.pageInfo.endCursor : null;
+      after = result.recent.pageInfo.hasNextPage ? result.recent.pageInfo.endCursor : null;
     } while (after);
   }
 

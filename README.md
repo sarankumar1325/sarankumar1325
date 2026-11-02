@@ -4,7 +4,7 @@
 
 <p>
 <a href="https://github.com/swsarancodes#gh-light-mode-only"><img src="assets/activity-light.svg" width="846" height="88" align="top" alt="Activity. Includes @swsarancodes."></a><a href="https://github.com/swsarancodes#gh-dark-mode-only"><img src="assets/activity-dark.svg" width="846" height="88" align="top" alt="Activity. Includes @swsarancodes."></a><br>
-<a href="https://github.com/sarankumar1325#gh-light-mode-only"><img src="assets/numbers-light.svg" width="846" height="122" align="top" alt="2,059 contributions, 859 commits, 228 pull requests merged, 17 days in a row."></a><a href="https://github.com/sarankumar1325#gh-dark-mode-only"><img src="assets/numbers-dark.svg" width="846" height="122" align="top" alt="2,059 contributions, 859 commits, 228 pull requests merged, 17 days in a row."></a><br>
+<a href="https://github.com/sarankumar1325#gh-light-mode-only"><img src="assets/numbers-light.svg" width="846" height="122" align="top" alt="2,059 contributions, 859 commits, 227 pull requests merged, 17 days in a row."></a><a href="https://github.com/sarankumar1325#gh-dark-mode-only"><img src="assets/numbers-dark.svg" width="846" height="122" align="top" alt="2,059 contributions, 859 commits, 227 pull requests merged, 17 days in a row."></a><br>
 <a href="https://github.com/sarankumar1325#gh-light-mode-only"><img src="assets/calendar-light.svg" width="846" height="187" align="top" alt="Contribution graph for the last 12 months: 2,059 contributions across @sarankumar1325 and @swsarancodes."></a><a href="https://github.com/sarankumar1325#gh-dark-mode-only"><img src="assets/calendar-dark.svg" width="846" height="187" align="top" alt="Contribution graph for the last 12 months: 2,059 contributions across @sarankumar1325 and @swsarancodes."></a>
 </p>
 
