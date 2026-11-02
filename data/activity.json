@@ -1,0 +1,316 @@
+{
+  "accounts": [
+    "sarankumar1325",
+    "swsarancodes"
+  ],
+  "calendar": {
+    "start": "2025-11-02",
+    "counts": [0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,7,0,16,4,4,1,3,9,16,13,2,5,2,3,2,1,1,0,1,1,1,0,0,1,1,3,0,1,3,11,2,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,7,1,0,2,2,4,0,1,0,0,0,0,0,0,0,1,0,0,5,1,5,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,0,1,4,3,0,8,0,6,0,10,0,3,1,1,1,0,1,2,0,2,0,0,1,2,6,0,0,0,0,0,0,0,0,0,0,0,10,15,7,3,7,3,5,7,17,12,6,1,0,0,9,33,10,14,1,12,6,4,11,14,7,0,30,17,30,6,5,2,7,9,3,2,11,0,5,0,0,0,4,4,9,0,0,8,11,1,2,2,10,1,4,0,0,3,6,1,0,0,30,66,17,30,13,20,39,49,93,57,17,14,133,283,486,51,7]
+  },
+  "commits": 859,
+  "merged": 228,
+  "push": {
+    "repo": "sarankumar1325/pyinfra",
+    "at": "2026-11-01T18:55:55Z"
+  },
+  "pulls": [
+    {
+      "repo": "vllm-project/vllm",
+      "number": 64666,
+      "title": "[Docs] Fix dead links to moved llm-d, Dynamo, TPU, Ray and Tensorizer pages",
+      "url": "https://github.com/vllm-project/vllm/pull/64666",
+      "stars": 96100,
+      "mergedAt": "2026-10-30T17:53:43Z"
+    },
+    {
+      "repo": "nektos/act",
+      "number": 6234,
+      "title": "fix(git): match GitHub remotes with ports and git:// URLs again",
+      "url": "https://github.com/nektos/act/pull/6234",
+      "stars": 72500,
+      "mergedAt": "2026-10-31T18:27:50Z"
+    },
+    {
+      "repo": "docling-project/docling",
+      "number": 5051,
+      "title": "fix(vlm): scale DocLang locations to the page size",
+      "url": "https://github.com/docling-project/docling/pull/5051",
+      "stars": 70000,
+      "mergedAt": "2026-10-28T12:07:14Z"
+    },
+    {
+      "repo": "traefik/traefik",
+      "number": 14186,
+      "title": "Fix typos in plugin type error and documentation",
+      "url": "https://github.com/traefik/traefik/pull/14186",
+      "stars": 65400,
+      "mergedAt": "2026-10-30T13:24:07Z"
+    },
+    {
+      "repo": "go-gitea/gitea",
+      "number": 40049,
+      "title": "fix(api): remove git remote when deleting a push mirror",
+      "url": "https://github.com/go-gitea/gitea/pull/40049",
+      "stars": 58800,
+      "mergedAt": "2026-10-31T17:47:36Z"
+    },
+    {
+      "repo": "remix-run/react-router",
+      "number": 15680,
+      "title": "fix(react-router): keep the global Document type out of the published route discovery types",
+      "url": "https://github.com/remix-run/react-router/pull/15680",
+      "stars": 56600,
+      "mergedAt": "2026-10-23T18:52:18Z"
+    },
+    {
+      "repo": "multica-ai/multica",
+      "number": 9573,
+      "title": "MUL-8277 fix(issues): load every Gantt page when the server caps page size",
+      "url": "https://github.com/multica-ai/multica/pull/9573",
+      "stars": 54600,
+      "mergedAt": "2026-10-27T03:52:12Z"
+    },
+    {
+      "repo": "solidjs/solid",
+      "number": 4264,
+      "title": "fix(signals): don't report an item shifted into a spliced index as replaced (#4262)",
+      "url": "https://github.com/solidjs/solid/pull/4264",
+      "stars": 36200,
+      "mergedAt": "2026-10-26T06:13:06Z"
+    },
+    {
+      "repo": "k3s-io/k3s",
+      "number": 14940,
+      "title": "Fix dead community meeting and shell style guide links",
+      "url": "https://github.com/k3s-io/k3s/pull/14940",
+      "stars": 34300,
+      "mergedAt": "2026-10-30T18:36:22Z"
+    },
+    {
+      "repo": "nrwl/nx",
+      "number": 37606,
+      "title": "fix(testing): infer the serve task from bunx-prefixed playwright webServer commands",
+      "url": "https://github.com/nrwl/nx/pull/37606",
+      "stars": 29400,
+      "mergedAt": "2026-10-26T16:38:31Z"
+    },
+    {
+      "repo": "huggingface/lerobot",
+      "number": 5157,
+      "title": "docs: fix dead Isaac Teleop and RealSense links",
+      "url": "https://github.com/huggingface/lerobot/pull/5157",
+      "stars": 28600,
+      "mergedAt": "2026-10-30T09:55:42Z"
+    },
+    {
+      "repo": "squidfunk/mkdocs-material",
+      "number": 8619,
+      "title": "Fix dead links to deployment guides and social card layouts",
+      "url": "https://github.com/squidfunk/mkdocs-material/pull/8619",
+      "stars": 27600,
+      "mergedAt": "2026-10-30T19:41:19Z"
+    },
+    {
+      "repo": "pulumi/pulumi",
+      "number": 25445,
+      "title": "Report a diagnostic instead of panicking for PCL blocks with no labels",
+      "url": "https://github.com/pulumi/pulumi/pull/25445",
+      "stars": 25800,
+      "mergedAt": "2026-10-29T10:04:33Z"
+    },
+    {
+      "repo": "tursodatabase/turso",
+      "number": 11044,
+      "title": "core/translate: read integer PRAGMA values like sqlite3Atoi",
+      "url": "https://github.com/tursodatabase/turso/pull/11044",
+      "stars": 25100,
+      "mergedAt": "2026-10-30T03:34:16Z"
+    },
+    {
+      "repo": "argoproj/argo-cd",
+      "number": 30608,
+      "title": "docs: fix typos in API field comments and Makefile",
+      "url": "https://github.com/argoproj/argo-cd/pull/30608",
+      "stars": 24500,
+      "mergedAt": "2026-10-29T19:53:13Z"
+    },
+    {
+      "repo": "uutils/coreutils",
+      "number": 16016,
+      "title": "ln: print => for hard links with --verbose",
+      "url": "https://github.com/uutils/coreutils/pull/16016",
+      "stars": 24300,
+      "mergedAt": "2026-10-30T12:41:23Z"
+    },
+    {
+      "repo": "oxc-project/oxc",
+      "number": 28144,
+      "title": "fix(react-compiler): keep the optional chain through a non-null assertion",
+      "url": "https://github.com/oxc-project/oxc/pull/28144",
+      "stars": 23300,
+      "mergedAt": "2026-10-26T09:35:40Z"
+    },
+    {
+      "repo": "jsdom/jsdom",
+      "number": 4415,
+      "title": "Implement reportError()",
+      "url": "https://github.com/jsdom/jsdom/pull/4415",
+      "stars": 21700,
+      "mergedAt": "2026-10-30T04:25:25Z"
+    },
+    {
+      "repo": "huggingface/sentence-transformers",
+      "number": 4300,
+      "title": "[docs] Fix dead dataset, modules.json and reference links",
+      "url": "https://github.com/huggingface/sentence-transformers/pull/4300",
+      "stars": 19200,
+      "mergedAt": "2026-10-30T09:27:39Z"
+    },
+    {
+      "repo": "Effect-TS/effect",
+      "number": 9991,
+      "title": "fix(PubSub): release replay buffer once the replay window is exhausted",
+      "url": "https://github.com/Effect-TS/effect/pull/9991",
+      "stars": 17500,
+      "mergedAt": "2026-10-27T02:53:04Z"
+    },
+    {
+      "repo": "electric-sql/pglite",
+      "number": 1170,
+      "title": "fix(pglite): make close() wait for queries issued before it",
+      "url": "https://github.com/electric-sql/pglite/pull/1170",
+      "stars": 16200,
+      "mergedAt": "2026-10-28T10:31:30Z"
+    },
+    {
+      "repo": "cachethq/cachet",
+      "number": 4646,
+      "title": "docs: fix dead documentation and demo links",
+      "url": "https://github.com/cachethq/cachet/pull/4646",
+      "stars": 15300,
+      "mergedAt": "2026-10-31T10:14:16Z"
+    },
+    {
+      "repo": "livekit/agents",
+      "number": 8082,
+      "title": "fix(anthropic): send parallel_tool_calls when no tool_choice is set",
+      "url": "https://github.com/livekit/agents/pull/8082",
+      "stars": 15000,
+      "mergedAt": "2026-10-23T08:57:12Z"
+    },
+    {
+      "repo": "The-PR-Agent/pr-agent",
+      "number": 4562,
+      "title": "fix(gitlab): skip webhook events from ignored user IDs",
+      "url": "https://github.com/The-PR-Agent/pr-agent/pull/4562",
+      "stars": 13900,
+      "mergedAt": "2026-11-01T09:28:58Z"
+    }
+  ],
+  "repos": {
+    "month": [
+      {
+        "repo": "swsarancodes/goforge",
+        "url": "https://github.com/swsarancodes/goforge",
+        "commits": 162
+      },
+      {
+        "repo": "sarankumar1325/url-shortner",
+        "url": "https://github.com/sarankumar1325/url-shortner",
+        "commits": 120
+      },
+      {
+        "repo": "sarankumar1325/pgbot",
+        "url": "https://github.com/sarankumar1325/pgbot",
+        "commits": 47
+      },
+      {
+        "repo": "prometheus-community/helm-charts",
+        "url": "https://github.com/prometheus-community/helm-charts",
+        "commits": 14
+      },
+      {
+        "repo": "swsarancodes/Manicule",
+        "url": "https://github.com/swsarancodes/Manicule",
+        "commits": 12
+      },
+      {
+        "repo": "zzet/gortex",
+        "url": "https://github.com/zzet/gortex",
+        "commits": 7
+      },
+      {
+        "repo": "tursodatabase/turso",
+        "url": "https://github.com/tursodatabase/turso",
+        "commits": 6
+      },
+      {
+        "repo": "hahwul/dalfox",
+        "url": "https://github.com/hahwul/dalfox",
+        "commits": 5
+      },
+      {
+        "repo": "crossplane/crossplane-runtime",
+        "url": "https://github.com/crossplane/crossplane-runtime",
+        "commits": 4
+      },
+      {
+        "repo": "cubrid-lab/cubrid-mcp-server",
+        "url": "https://github.com/cubrid-lab/cubrid-mcp-server",
+        "commits": 4
+      }
+    ],
+    "quarter": [
+      {
+        "repo": "swsarancodes/goforge",
+        "url": "https://github.com/swsarancodes/goforge",
+        "commits": 174
+      },
+      {
+        "repo": "sarankumar1325/url-shortner",
+        "url": "https://github.com/sarankumar1325/url-shortner",
+        "commits": 120
+      },
+      {
+        "repo": "swsarancodes/Manicule",
+        "url": "https://github.com/swsarancodes/Manicule",
+        "commits": 109
+      },
+      {
+        "repo": "sarankumar1325/pgbot",
+        "url": "https://github.com/sarankumar1325/pgbot",
+        "commits": 47
+      },
+      {
+        "repo": "prometheus-community/helm-charts",
+        "url": "https://github.com/prometheus-community/helm-charts",
+        "commits": 14
+      },
+      {
+        "repo": "swsarancodes/URL-SHORTNER",
+        "url": "https://github.com/swsarancodes/URL-SHORTNER",
+        "commits": 12
+      },
+      {
+        "repo": "zzet/gortex",
+        "url": "https://github.com/zzet/gortex",
+        "commits": 7
+      },
+      {
+        "repo": "tursodatabase/turso",
+        "url": "https://github.com/tursodatabase/turso",
+        "commits": 6
+      },
+      {
+        "repo": "hahwul/dalfox",
+        "url": "https://github.com/hahwul/dalfox",
+        "commits": 5
+      },
+      {
+        "repo": "swsarancodes/MEMCACHE-",
+        "url": "https://github.com/swsarancodes/MEMCACHE-",
+        "commits": 5
+      }
+    ]
+  }
+}
