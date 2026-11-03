@@ -7,15 +7,15 @@
 </picture>
 
 <p>
-<b>2,086</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>885</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>256</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>18</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>2,097</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>896</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>267</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>18</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-b1897616-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-b1897616-light.svg">
-  <img src="assets/calendar-b1897616-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,086 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-56fdf8c9-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-56fdf8c9-light.svg">
+  <img src="assets/calendar-56fdf8c9-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,097 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
-<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/atuin">atuin</a> on 3 November, 06:26 IST</sub></p>
+<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/percona-xtradb-cluster-operator">percona-xtradb-cluster-operator</a> on 3 November, 15:50 IST</sub></p>
 
 ### Recently merged
 
@@ -41,7 +41,7 @@
 
 <p>
 <a href="https://github.com/docling-project/docling/pull/5051"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Scale DocLang locations to the page size</b><br>
-<sub><a href="https://github.com/docling-project/docling/pull/5051">docling-project/docling#5051</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;28&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;70k</sub>
+<sub><a href="https://github.com/docling-project/docling/pull/5051">docling-project/docling#5051</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;28&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;70.1k</sub>
 </p>
 
 <p>
