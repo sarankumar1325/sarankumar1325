@@ -7,15 +7,15 @@
 </picture>
 
 <p>
-<b>2,101</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>900</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>270</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>18</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>2,114</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>904</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>274</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>19</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-5609889a-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-5609889a-light.svg">
-  <img src="assets/calendar-5609889a-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,101 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-e6661845-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-e6661845-light.svg">
+  <img src="assets/calendar-e6661845-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,114 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
-<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/mikro-orm">mikro-orm</a> on 4 November, 04:10 IST</sub></p>
+<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/mikro-orm">mikro-orm</a> on 4 November, 06:18 IST</sub></p>
 
 ### Recently merged
 
@@ -31,7 +31,7 @@
 
 <p>
 <a href="https://github.com/vllm-project/vllm/pull/64666"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Fix dead links to moved llm-d, Dynamo, TPU, Ray and Tensorizer pages</b><br>
-<sub><a href="https://github.com/vllm-project/vllm/pull/64666">vllm-project/vllm#64666</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;30&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;96.2k</sub>
+<sub><a href="https://github.com/vllm-project/vllm/pull/64666">vllm-project/vllm#64666</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;30&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;96.3k</sub>
 </p>
 
 <p>
@@ -56,7 +56,7 @@
 <p>
 <a href="https://github.com/swsarancodes/goforge"><img src="assets/bar.svg" width="40%" height="8" alt=""></a>&ensp;<b>156</b>&ensp;<a href="https://github.com/swsarancodes/goforge">goforge</a><br>
 <a href="https://github.com/sarankumar1325/url-shortner"><img src="assets/bar.svg" width="31%" height="8" alt=""></a>&ensp;<b>120</b>&ensp;<a href="https://github.com/sarankumar1325/url-shortner">url-shortner</a><br>
-<a href="https://github.com/sarankumar1325/pgbot"><img src="assets/bar.svg" width="13%" height="8" alt=""></a>&ensp;<b>49</b>&ensp;<a href="https://github.com/sarankumar1325/pgbot">pgbot</a><br>
+<a href="https://github.com/sarankumar1325/pgbot"><img src="assets/bar.svg" width="12%" height="8" alt=""></a>&ensp;<b>47</b>&ensp;<a href="https://github.com/sarankumar1325/pgbot">pgbot</a><br>
 <a href="https://github.com/prometheus-community/helm-charts"><img src="assets/bar.svg" width="4%" height="8" alt=""></a>&ensp;<b>14</b>&ensp;<a href="https://github.com/prometheus-community/helm-charts">prometheus-community/helm-charts</a><br>
 <a href="https://github.com/swsarancodes/Manicule"><img src="assets/bar.svg" width="3%" height="8" alt=""></a>&ensp;<b>12</b>&ensp;<a href="https://github.com/swsarancodes/Manicule">Manicule</a>
 </p>
