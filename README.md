@@ -7,15 +7,15 @@
 </picture>
 
 <p>
-<b>2,114</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>904</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>274</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>19</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>2,126</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>910</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>282</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>19</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-e6661845-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-e6661845-light.svg">
-  <img src="assets/calendar-e6661845-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,114 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-a5de179d-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-a5de179d-light.svg">
+  <img src="assets/calendar-a5de179d-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,126 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
-<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/mikro-orm">mikro-orm</a> on 4 November, 06:18 IST</sub></p>
+<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/terraform-provider-scaleway">terraform-provider-scaleway</a> on 4 November, 21:12 IST</sub></p>
 
 ### Recently merged
 
