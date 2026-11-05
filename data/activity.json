@@ -5,13 +5,13 @@
   ],
   "calendar": {
     "start": "2025-11-02",
-    "counts": [0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,7,0,16,4,4,1,3,9,16,13,2,5,2,3,2,1,1,0,1,1,1,0,0,1,1,3,0,1,3,11,2,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,7,1,0,2,2,4,0,1,0,0,0,0,0,0,0,1,0,0,5,1,5,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,0,1,4,3,0,8,0,6,0,10,0,3,1,1,1,0,1,2,0,2,0,0,1,2,6,0,0,0,0,0,0,0,0,0,0,0,10,15,7,3,7,3,5,7,17,12,6,1,0,0,9,33,10,14,1,12,6,4,11,14,7,0,30,17,30,6,5,2,7,9,3,2,11,0,5,0,0,0,4,5,8,0,0,8,11,1,2,2,10,1,4,0,0,3,9,1,0,0,30,66,17,30,13,20,39,49,93,57,17,14,133,290,493,52,23,15,18]
+    "counts": [0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,7,0,16,4,4,1,3,9,16,13,2,5,2,3,2,1,1,0,1,1,1,0,0,1,1,3,0,1,3,11,2,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,7,1,0,2,2,4,0,1,0,0,0,0,0,0,0,1,0,0,5,1,5,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,0,1,4,3,0,8,0,6,0,10,0,3,1,1,1,0,1,2,0,2,0,0,1,2,6,0,0,0,0,0,0,0,0,0,0,0,10,15,7,3,7,3,5,7,17,12,6,1,0,0,9,33,10,14,1,12,6,4,11,14,7,0,30,17,30,6,5,2,7,9,3,2,11,0,5,0,0,0,4,5,8,0,0,8,11,1,2,2,10,1,4,0,0,3,9,1,0,0,30,66,17,30,13,20,39,49,93,57,17,14,133,290,493,52,23,15,18,3]
   },
-  "commits": 910,
-  "merged": 282,
+  "commits": 913,
+  "merged": 284,
   "push": {
-    "repo": "sarankumar1325/terraform-provider-scaleway",
-    "at": "2026-11-04T15:42:33Z"
+    "repo": "sarankumar1325/cubrid-mcp-server",
+    "at": "2026-11-05T03:06:43Z"
   },
   "pulls": [
     {
@@ -19,7 +19,7 @@
       "number": 64666,
       "title": "[Docs] Fix dead links to moved llm-d, Dynamo, TPU, Ray and Tensorizer pages",
       "url": "https://github.com/vllm-project/vllm/pull/64666",
-      "stars": 96300,
+      "stars": 96400,
       "mergedAt": "2026-10-30T17:53:43Z"
     },
     {
@@ -67,7 +67,7 @@
       "number": 9573,
       "title": "MUL-8277 fix(issues): load every Gantt page when the server caps page size",
       "url": "https://github.com/multica-ai/multica/pull/9573",
-      "stars": 54900,
+      "stars": 55000,
       "mergedAt": "2026-10-27T03:52:12Z"
     },
     {
@@ -240,14 +240,14 @@
         "commits": 7
       },
       {
-        "repo": "tursodatabase/turso",
-        "url": "https://github.com/tursodatabase/turso",
+        "repo": "cubrid-lab/cubrid-mcp-server",
+        "url": "https://github.com/cubrid-lab/cubrid-mcp-server",
         "commits": 6
       },
       {
-        "repo": "cubrid-lab/cubrid-mcp-server",
-        "url": "https://github.com/cubrid-lab/cubrid-mcp-server",
-        "commits": 5
+        "repo": "tursodatabase/turso",
+        "url": "https://github.com/tursodatabase/turso",
+        "commits": 6
       },
       {
         "repo": "hahwul/dalfox",
@@ -297,14 +297,14 @@
         "commits": 7
       },
       {
-        "repo": "tursodatabase/turso",
-        "url": "https://github.com/tursodatabase/turso",
+        "repo": "cubrid-lab/cubrid-mcp-server",
+        "url": "https://github.com/cubrid-lab/cubrid-mcp-server",
         "commits": 6
       },
       {
-        "repo": "cubrid-lab/cubrid-mcp-server",
-        "url": "https://github.com/cubrid-lab/cubrid-mcp-server",
-        "commits": 5
+        "repo": "tursodatabase/turso",
+        "url": "https://github.com/tursodatabase/turso",
+        "commits": 6
       },
       {
         "repo": "hahwul/dalfox",
