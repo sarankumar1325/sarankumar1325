@@ -7,21 +7,21 @@
 </picture>
 
 <p>
-<b>2,129</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>913</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>284</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>20</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>2,136</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>918</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>290</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>20</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-f27d587a-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-f27d587a-light.svg">
-  <img src="assets/calendar-f27d587a-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,129 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-2f4831d5-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-2f4831d5-light.svg">
+  <img src="assets/calendar-2f4831d5-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,136 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
-<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/cubrid-mcp-server">cubrid-mcp-server</a> on 5 November, 08:36 IST</sub></p>
+<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/VictoriaMetrics">VictoriaMetrics</a> on 5 November, 20:53 IST</sub></p>
 
 ### Recently merged
 
 <p>
 <a href="https://github.com/nektos/act/pull/6234"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Match GitHub remotes with ports and git:// URLs again</b><br>
-<sub><a href="https://github.com/nektos/act/pull/6234">nektos/act#6234</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;31&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;72.5k</sub>
+<sub><a href="https://github.com/nektos/act/pull/6234">nektos/act#6234</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;31&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;72.6k</sub>
 </p>
 
 <p>
@@ -41,7 +41,7 @@
 
 <p>
 <a href="https://github.com/docling-project/docling/pull/5051"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Scale DocLang locations to the page size</b><br>
-<sub><a href="https://github.com/docling-project/docling/pull/5051">docling-project/docling#5051</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;28&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;70.1k</sub>
+<sub><a href="https://github.com/docling-project/docling/pull/5051">docling-project/docling#5051</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;28&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;70.2k</sub>
 </p>
 
 <p>
