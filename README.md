@@ -7,17 +7,22 @@
 </picture>
 
 <p>
-<b>2,143</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>925</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>295</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>21</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>2,151</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>933</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>303</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>21</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-e82419a1-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-e82419a1-light.svg">
-  <img src="assets/calendar-e82419a1-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,143 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-4452ca21-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-4452ca21-light.svg">
+  <img src="assets/calendar-4452ca21-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,151 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
-<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/rolldown">rolldown</a> on 6 November, 11:52 IST</sub></p>
+<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/influxdb-client-python">influxdb-client-python</a> on 6 November, 21:46 IST</sub></p>
 
 ### Recently merged
+
+<p>
+<a href="https://github.com/docling-project/docling/pull/5037"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Keep an image caption with its picture</b><br>
+<sub><a href="https://github.com/docling-project/docling/pull/5037">docling-project/docling#5037</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;6&nbsp;Nov&nbsp;&nbsp;·&nbsp; ★&nbsp;70.2k</sub>
+</p>
 
 <p>
 <a href="https://github.com/nektos/act/pull/6234"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Match GitHub remotes with ports and git:// URLs again</b><br>
@@ -31,17 +36,12 @@
 
 <p>
 <a href="https://github.com/vllm-project/vllm/pull/64666"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Fix dead links to moved llm-d, Dynamo, TPU, Ray and Tensorizer pages</b><br>
-<sub><a href="https://github.com/vllm-project/vllm/pull/64666">vllm-project/vllm#64666</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;30&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;96.4k</sub>
+<sub><a href="https://github.com/vllm-project/vllm/pull/64666">vllm-project/vllm#64666</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;30&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;96.5k</sub>
 </p>
 
 <p>
 <a href="https://github.com/traefik/traefik/pull/14186"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Fix typos in plugin type error and documentation</b><br>
 <sub><a href="https://github.com/traefik/traefik/pull/14186">traefik/traefik#14186</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;30&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;65.5k</sub>
-</p>
-
-<p>
-<a href="https://github.com/docling-project/docling/pull/5051"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Scale DocLang locations to the page size</b><br>
-<sub><a href="https://github.com/docling-project/docling/pull/5051">docling-project/docling#5051</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;28&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;70.2k</sub>
 </p>
 
 <p>

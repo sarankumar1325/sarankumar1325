@@ -5,13 +5,13 @@
   ],
   "calendar": {
     "start": "2025-11-02",
-    "counts": [0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,7,0,16,4,4,1,3,9,16,13,2,5,2,3,2,1,1,0,1,1,1,0,0,1,1,3,0,1,3,11,2,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,7,1,0,2,2,4,0,1,0,0,0,0,0,0,0,1,0,0,5,1,5,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,0,1,4,3,0,8,0,6,0,10,0,3,1,1,1,0,1,2,0,2,0,0,1,2,6,0,0,0,0,0,0,0,0,0,0,0,10,15,7,3,7,3,5,7,17,12,6,1,0,0,9,33,10,14,1,12,6,4,11,14,7,0,30,17,30,6,5,2,7,9,3,2,11,0,5,0,0,0,4,5,8,0,0,8,11,1,2,2,10,1,4,0,0,3,9,1,0,0,30,66,17,30,13,20,39,49,93,57,17,14,135,290,495,52,23,15,18,9,4]
+    "counts": [0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,7,0,16,4,4,1,3,9,16,13,2,5,2,3,2,1,1,0,1,1,1,0,0,1,1,3,0,1,3,11,2,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,7,1,0,2,2,4,0,1,0,0,0,0,0,0,0,1,0,0,5,1,5,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,0,1,4,3,0,8,0,6,0,10,0,3,1,1,1,0,1,2,0,2,0,0,1,2,6,0,0,0,0,0,0,0,0,0,0,0,10,15,7,3,7,3,5,7,17,12,6,1,0,0,9,33,10,14,1,12,6,4,11,14,7,0,30,17,30,6,5,2,7,9,3,2,11,0,5,0,0,0,4,5,8,0,0,8,11,1,2,2,10,1,4,0,0,3,9,1,0,0,30,66,17,30,13,20,39,49,93,57,17,14,135,292,497,52,23,15,18,9,8]
   },
-  "commits": 925,
-  "merged": 295,
+  "commits": 933,
+  "merged": 303,
   "push": {
-    "repo": "sarankumar1325/rolldown",
-    "at": "2026-11-06T06:22:05Z"
+    "repo": "sarankumar1325/influxdb-client-python",
+    "at": "2026-11-06T16:16:59Z"
   },
   "pulls": [
     {
@@ -19,7 +19,7 @@
       "number": 64666,
       "title": "[Docs] Fix dead links to moved llm-d, Dynamo, TPU, Ray and Tensorizer pages",
       "url": "https://github.com/vllm-project/vllm/pull/64666",
-      "stars": 96400,
+      "stars": 96500,
       "mergedAt": "2026-10-30T17:53:43Z"
     },
     {
@@ -32,11 +32,11 @@
     },
     {
       "repo": "docling-project/docling",
-      "number": 5051,
-      "title": "fix(vlm): scale DocLang locations to the page size",
-      "url": "https://github.com/docling-project/docling/pull/5051",
+      "number": 5037,
+      "title": "fix(html): keep an image caption with its picture",
+      "url": "https://github.com/docling-project/docling/pull/5037",
       "stars": 70200,
-      "mergedAt": "2026-10-28T12:07:14Z"
+      "mergedAt": "2026-11-06T15:55:09Z"
     },
     {
       "repo": "traefik/traefik",
@@ -67,7 +67,7 @@
       "number": 9573,
       "title": "MUL-8277 fix(issues): load every Gantt page when the server caps page size",
       "url": "https://github.com/multica-ai/multica/pull/9573",
-      "stars": 55100,
+      "stars": 55200,
       "mergedAt": "2026-10-27T03:52:12Z"
     },
     {
@@ -75,7 +75,7 @@
       "number": 4264,
       "title": "fix(signals): don't report an item shifted into a spliced index as replaced (#4262)",
       "url": "https://github.com/solidjs/solid/pull/4264",
-      "stars": 36200,
+      "stars": 36300,
       "mergedAt": "2026-10-26T06:13:06Z"
     },
     {
@@ -163,7 +163,7 @@
       "number": 28144,
       "title": "fix(react-compiler): keep the optional chain through a non-null assertion",
       "url": "https://github.com/oxc-project/oxc/pull/28144",
-      "stars": 23300,
+      "stars": 23400,
       "mergedAt": "2026-10-26T09:35:40Z"
     },
     {
@@ -250,14 +250,14 @@
         "commits": 6
       },
       {
-        "repo": "hahwul/dalfox",
-        "url": "https://github.com/hahwul/dalfox",
+        "repo": "docling-project/docling",
+        "url": "https://github.com/docling-project/docling",
         "commits": 5
       },
       {
-        "repo": "crossplane/crossplane-runtime",
-        "url": "https://github.com/crossplane/crossplane-runtime",
-        "commits": 4
+        "repo": "hahwul/dalfox",
+        "url": "https://github.com/hahwul/dalfox",
+        "commits": 5
       }
     ],
     "quarter": [
@@ -307,8 +307,8 @@
         "commits": 6
       },
       {
-        "repo": "hahwul/dalfox",
-        "url": "https://github.com/hahwul/dalfox",
+        "repo": "docling-project/docling",
+        "url": "https://github.com/docling-project/docling",
         "commits": 5
       }
     ]
