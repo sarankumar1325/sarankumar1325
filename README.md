@@ -7,6 +7,14 @@
 </picture>
 
 <p>
+  <a href="https://sarankumar.space">Portfolio</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/saran-kumar-s-sk13022005/">LinkedIn</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://x.com/iamsaranhere">X</a>
+</p>
+
+<p>
 <b>2,153</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>933</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>303</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>22</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
@@ -15,6 +23,7 @@
   <source media="(prefers-color-scheme: light)" srcset="assets/calendar-3dfef19b-light.svg">
   <img src="assets/calendar-3dfef19b-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,153 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
+
 <p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/influxdb-client-python">influxdb-client-python</a> on 6 November, 21:46 IST</sub></p>
 
 ### Recently merged
