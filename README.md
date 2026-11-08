@@ -7,13 +7,13 @@
 </picture>
 
 <p>
-<b>2,158</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>938</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>306</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>22</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>2,162</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>942</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>307</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>23</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-a030270d-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-a030270d-light.svg">
-  <img src="assets/calendar-a030270d-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,158 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-c24fbe92-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-c24fbe92-light.svg">
+  <img src="assets/calendar-c24fbe92-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,162 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
 <p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/scrawl">scrawl</a> on 8 November, 03:23 IST</sub></p>
 
@@ -31,7 +31,7 @@
 
 <p>
 <a href="https://github.com/go-gitea/gitea/pull/40049"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Remove git remote when deleting a push mirror</b><br>
-<sub><a href="https://github.com/go-gitea/gitea/pull/40049">go-gitea/gitea#40049</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;31&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;58.9k</sub>
+<sub><a href="https://github.com/go-gitea/gitea/pull/40049">go-gitea/gitea#40049</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;31&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;59k</sub>
 </p>
 
 <p>
