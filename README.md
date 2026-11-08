@@ -7,13 +7,13 @@
 </picture>
 
 <p>
-<b>2,164</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>944</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>309</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>23</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>2,165</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>945</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>310</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>23</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-0d7f4683-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-0d7f4683-light.svg">
-  <img src="assets/calendar-0d7f4683-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,164 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-9b3f7a7f-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-9b3f7a7f-light.svg">
+  <img src="assets/calendar-9b3f7a7f-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,165 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
 <p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/scrawl">scrawl</a> on 8 November, 03:23 IST</sub></p>
 
@@ -36,7 +36,7 @@
 
 <p>
 <a href="https://github.com/vllm-project/vllm/pull/64666"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Fix dead links to moved llm-d, Dynamo, TPU, Ray and Tensorizer pages</b><br>
-<sub><a href="https://github.com/vllm-project/vllm/pull/64666">vllm-project/vllm#64666</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;30&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;96.5k</sub>
+<sub><a href="https://github.com/vllm-project/vllm/pull/64666">vllm-project/vllm#64666</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;30&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;96.6k</sub>
 </p>
 
 <p>
