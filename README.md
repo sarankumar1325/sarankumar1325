@@ -7,15 +7,15 @@
 </picture>
 
 <p>
-<b>2,166</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>946</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>311</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>24</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>2,210</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>959</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>328</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>24</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-893d1c12-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-893d1c12-light.svg">
-  <img src="assets/calendar-893d1c12-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,166 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-ef865970-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-ef865970-light.svg">
+  <img src="assets/calendar-ef865970-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,210 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
-<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/0---secgoml">0---secgoml</a> on 9 November, 10:24 IST</sub></p>
+<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/prometheus-operator">prometheus-operator</a> on 10 November, 03:31 IST</sub></p>
 
 ### Recently merged
 
