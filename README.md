@@ -7,21 +7,21 @@
 </picture>
 
 <p>
-<b>2,210</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>959</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>328</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>24</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>2,257</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>976</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>344</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>25</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-ef865970-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-ef865970-light.svg">
-  <img src="assets/calendar-ef865970-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,210 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-63eae074-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-63eae074-light.svg">
+  <img src="assets/calendar-63eae074-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,257 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
-<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/prometheus-operator">prometheus-operator</a> on 10 November, 03:31 IST</sub></p>
+<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/docling">docling</a> on 10 November, 10:56 IST</sub></p>
 
 ### Recently merged
 
 <p>
 <a href="https://github.com/docling-project/docling/pull/5037"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Keep an image caption with its picture</b><br>
-<sub><a href="https://github.com/docling-project/docling/pull/5037">docling-project/docling#5037</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;6&nbsp;Nov&nbsp;&nbsp;·&nbsp; ★&nbsp;70.3k</sub>
+<sub><a href="https://github.com/docling-project/docling/pull/5037">docling-project/docling#5037</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;6&nbsp;Nov&nbsp;&nbsp;·&nbsp; ★&nbsp;70.4k</sub>
 </p>
 
 <p>
@@ -36,7 +36,7 @@
 
 <p>
 <a href="https://github.com/vllm-project/vllm/pull/64666"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Fix dead links to moved llm-d, Dynamo, TPU, Ray and Tensorizer pages</b><br>
-<sub><a href="https://github.com/vllm-project/vllm/pull/64666">vllm-project/vllm#64666</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;30&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;96.6k</sub>
+<sub><a href="https://github.com/vllm-project/vllm/pull/64666">vllm-project/vllm#64666</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;30&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;96.7k</sub>
 </p>
 
 <p>
