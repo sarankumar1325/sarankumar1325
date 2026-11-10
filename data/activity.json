@@ -5,13 +5,13 @@
   ],
   "calendar": {
     "start": "2025-11-09",
-    "counts": [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,7,0,16,4,4,1,3,9,16,13,2,5,2,3,2,1,1,0,1,1,1,0,0,1,1,3,0,1,3,11,2,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,7,1,0,2,2,4,0,1,0,0,0,0,0,0,0,1,0,0,5,1,5,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,0,1,4,3,0,8,0,6,0,10,0,3,1,1,1,0,1,2,0,2,0,0,1,2,6,0,0,0,0,0,0,0,0,0,0,0,10,15,7,3,7,3,5,7,17,12,6,1,0,0,9,33,10,14,1,12,6,4,11,14,7,0,30,17,30,6,5,2,7,9,3,2,11,0,5,0,0,0,4,5,8,0,0,8,11,1,2,2,10,1,4,0,0,3,9,1,0,0,30,66,17,30,13,20,39,49,94,57,17,14,136,293,473,52,23,15,18,9,8,11,6,58,52]
+    "counts": [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,7,0,16,4,4,1,3,9,16,13,2,5,2,3,2,1,1,0,1,1,1,0,0,1,1,3,0,1,3,11,2,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,7,1,0,2,2,4,0,1,0,0,0,0,0,0,0,1,0,0,5,1,5,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,0,1,4,3,0,8,0,6,0,10,0,3,1,1,1,0,1,2,0,2,0,0,1,2,6,0,0,0,0,0,0,0,0,0,0,0,10,15,7,3,7,3,5,7,17,12,6,1,0,0,9,33,10,14,1,12,6,4,11,14,7,0,30,17,30,6,5,2,7,9,3,2,11,0,5,0,0,0,4,5,8,0,0,8,11,1,2,2,10,1,4,0,0,3,9,1,0,0,30,66,17,30,13,20,39,49,94,57,17,14,137,293,472,52,23,15,18,9,8,11,6,63,72]
   },
-  "commits": 976,
-  "merged": 344,
+  "commits": 1001,
+  "merged": 358,
   "push": {
-    "repo": "sarankumar1325/docling",
-    "at": "2026-11-10T05:26:31Z"
+    "repo": "sarankumar1325/wheelgap",
+    "at": "2026-11-10T19:48:24Z"
   },
   "pulls": [
     {
@@ -67,7 +67,7 @@
       "number": 9573,
       "title": "MUL-8277 fix(issues): load every Gantt page when the server caps page size",
       "url": "https://github.com/multica-ai/multica/pull/9573",
-      "stars": 55500,
+      "stars": 55600,
       "mergedAt": "2026-10-27T03:52:12Z"
     },
     {
@@ -99,7 +99,7 @@
       "number": 4536,
       "title": "fix(daemon): include pre-session history in session-preload search",
       "url": "https://github.com/atuinsh/atuin/pull/4536",
-      "stars": 32200,
+      "stars": 32300,
       "mergedAt": "2026-11-03T00:56:30Z"
     },
     {
@@ -152,11 +152,11 @@
     },
     {
       "repo": "uutils/coreutils",
-      "number": 15823,
-      "title": "sort: don't rewrite a -t<chars> file operand after --",
-      "url": "https://github.com/uutils/coreutils/pull/15823",
+      "number": 16310,
+      "title": "fold: keep UTF-8 characters next to an invalid byte intact",
+      "url": "https://github.com/uutils/coreutils/pull/16310",
       "stars": 24400,
-      "mergedAt": "2026-11-08T20:53:24Z"
+      "mergedAt": "2026-11-10T09:39:34Z"
     },
     {
       "repo": "oxc-project/oxc",
@@ -235,6 +235,11 @@
         "commits": 12
       },
       {
+        "repo": "uutils/findutils",
+        "url": "https://github.com/uutils/findutils",
+        "commits": 8
+      },
+      {
         "repo": "zzet/gortex",
         "url": "https://github.com/zzet/gortex",
         "commits": 7
@@ -250,14 +255,9 @@
         "commits": 6
       },
       {
-        "repo": "docling-project/docling",
-        "url": "https://github.com/docling-project/docling",
-        "commits": 5
-      },
-      {
-        "repo": "hahwul/dalfox",
-        "url": "https://github.com/hahwul/dalfox",
-        "commits": 5
+        "repo": "uutils/coreutils",
+        "url": "https://github.com/uutils/coreutils",
+        "commits": 6
       }
     ],
     "quarter": [
@@ -292,6 +292,11 @@
         "commits": 12
       },
       {
+        "repo": "uutils/findutils",
+        "url": "https://github.com/uutils/findutils",
+        "commits": 8
+      },
+      {
         "repo": "zzet/gortex",
         "url": "https://github.com/zzet/gortex",
         "commits": 7
@@ -305,11 +310,6 @@
         "repo": "tursodatabase/turso",
         "url": "https://github.com/tursodatabase/turso",
         "commits": 6
-      },
-      {
-        "repo": "docling-project/docling",
-        "url": "https://github.com/docling-project/docling",
-        "commits": 5
       }
     ]
   }
