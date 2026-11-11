@@ -7,21 +7,21 @@
 </picture>
 
 <p>
-<b>2,432</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,025</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>381</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>26</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>2,594</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,090</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>450</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>26</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-38def4d2-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-38def4d2-light.svg">
-  <img src="assets/calendar-38def4d2-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,432 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-86b0315d-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-86b0315d-light.svg">
+  <img src="assets/calendar-86b0315d-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,594 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
-<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/dalec">dalec</a> on 11 November, 12:06 IST</sub></p>
+<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/cfgaudit">cfgaudit</a> on 12 November, 01:09 IST</sub></p>
 
 ### Recently merged
 
 <p>
 <a href="https://github.com/docling-project/docling/pull/5037"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Keep an image caption with its picture</b><br>
-<sub><a href="https://github.com/docling-project/docling/pull/5037">docling-project/docling#5037</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;6&nbsp;Nov&nbsp;&nbsp;·&nbsp; ★&nbsp;70.4k</sub>
+<sub><a href="https://github.com/docling-project/docling/pull/5037">docling-project/docling#5037</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;6&nbsp;Nov&nbsp;&nbsp;·&nbsp; ★&nbsp;70.5k</sub>
 </p>
 
 <p>
@@ -36,7 +36,7 @@
 
 <p>
 <a href="https://github.com/vllm-project/vllm/pull/64666"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Fix dead links to moved llm-d, Dynamo, TPU, Ray and Tensorizer pages</b><br>
-<sub><a href="https://github.com/vllm-project/vllm/pull/64666">vllm-project/vllm#64666</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;30&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;96.7k</sub>
+<sub><a href="https://github.com/vllm-project/vllm/pull/64666">vllm-project/vllm#64666</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;30&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;96.8k</sub>
 </p>
 
 <p>
@@ -57,6 +57,6 @@
 <a href="https://github.com/swsarancodes/goforge"><img src="assets/bar.svg" width="40%" height="8" alt=""></a>&ensp;<b>156</b>&ensp;<a href="https://github.com/swsarancodes/goforge">goforge</a><br>
 <a href="https://github.com/sarankumar1325/url-shortner"><img src="assets/bar.svg" width="31%" height="8" alt=""></a>&ensp;<b>120</b>&ensp;<a href="https://github.com/sarankumar1325/url-shortner">url-shortner</a><br>
 <a href="https://github.com/sarankumar1325/pgbot"><img src="assets/bar.svg" width="12%" height="8" alt=""></a>&ensp;<b>47</b>&ensp;<a href="https://github.com/sarankumar1325/pgbot">pgbot</a><br>
-<a href="https://github.com/prometheus-community/helm-charts"><img src="assets/bar.svg" width="4%" height="8" alt=""></a>&ensp;<b>14</b>&ensp;<a href="https://github.com/prometheus-community/helm-charts">prometheus-community/helm-charts</a><br>
-<a href="https://github.com/swsarancodes/Manicule"><img src="assets/bar.svg" width="3%" height="8" alt=""></a>&ensp;<b>12</b>&ensp;<a href="https://github.com/swsarancodes/Manicule">Manicule</a>
+<a href="https://github.com/wheelgap/wheelgap"><img src="assets/bar.svg" width="6%" height="8" alt=""></a>&ensp;<b>24</b>&ensp;<a href="https://github.com/wheelgap/wheelgap">wheelgap/wheelgap</a><br>
+<a href="https://github.com/prometheus-community/helm-charts"><img src="assets/bar.svg" width="4%" height="8" alt=""></a>&ensp;<b>14</b>&ensp;<a href="https://github.com/prometheus-community/helm-charts">prometheus-community/helm-charts</a>
 </p>
