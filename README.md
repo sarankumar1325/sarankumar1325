@@ -7,17 +7,22 @@
 </picture>
 
 <p>
-<b>2,619</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,111</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>468</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>27</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>2,641</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,133</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>484</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>27</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-822e1a91-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-822e1a91-light.svg">
-  <img src="assets/calendar-822e1a91-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,619 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-afdf9d9a-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-afdf9d9a-light.svg">
+  <img src="assets/calendar-afdf9d9a-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,641 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
-<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/vfs">vfs</a> on 12 November, 10:36 IST</sub></p>
+<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/terraform-provider-scaleway">terraform-provider-scaleway</a> on 12 November, 20:47 IST</sub></p>
 
 ### Recently merged
+
+<p>
+<a href="https://github.com/traefik/traefik/pull/14253"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Fix Gateway API conformance report and CRS ruleset links</b><br>
+<sub><a href="https://github.com/traefik/traefik/pull/14253">traefik/traefik#14253</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;12&nbsp;Nov&nbsp;&nbsp;·&nbsp; ★&nbsp;65.5k</sub>
+</p>
 
 <p>
 <a href="https://github.com/docling-project/docling/pull/5037"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Keep an image caption with its picture</b><br>
@@ -37,11 +42,6 @@
 <p>
 <a href="https://github.com/vllm-project/vllm/pull/64666"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Fix dead links to moved llm-d, Dynamo, TPU, Ray and Tensorizer pages</b><br>
 <sub><a href="https://github.com/vllm-project/vllm/pull/64666">vllm-project/vllm#64666</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;30&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;96.8k</sub>
-</p>
-
-<p>
-<a href="https://github.com/traefik/traefik/pull/14186"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Fix typos in plugin type error and documentation</b><br>
-<sub><a href="https://github.com/traefik/traefik/pull/14186">traefik/traefik#14186</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;30&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;65.5k</sub>
 </p>
 
 <p>
