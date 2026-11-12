@@ -7,15 +7,15 @@
 </picture>
 
 <p>
-<b>2,594</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,090</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>450</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>26</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>2,619</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,111</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>468</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>27</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-86b0315d-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-86b0315d-light.svg">
-  <img src="assets/calendar-86b0315d-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,594 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-822e1a91-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-822e1a91-light.svg">
+  <img src="assets/calendar-822e1a91-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,619 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
-<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/cfgaudit">cfgaudit</a> on 12 November, 01:09 IST</sub></p>
+<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/vfs">vfs</a> on 12 November, 10:36 IST</sub></p>
 
 ### Recently merged
 
@@ -26,7 +26,7 @@
 
 <p>
 <a href="https://github.com/nektos/act/pull/6234"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Match GitHub remotes with ports and git:// URLs again</b><br>
-<sub><a href="https://github.com/nektos/act/pull/6234">nektos/act#6234</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;31&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;72.6k</sub>
+<sub><a href="https://github.com/nektos/act/pull/6234">nektos/act#6234</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;31&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;72.7k</sub>
 </p>
 
 <p>
@@ -58,5 +58,5 @@
 <a href="https://github.com/sarankumar1325/url-shortner"><img src="assets/bar.svg" width="31%" height="8" alt=""></a>&ensp;<b>120</b>&ensp;<a href="https://github.com/sarankumar1325/url-shortner">url-shortner</a><br>
 <a href="https://github.com/sarankumar1325/pgbot"><img src="assets/bar.svg" width="12%" height="8" alt=""></a>&ensp;<b>47</b>&ensp;<a href="https://github.com/sarankumar1325/pgbot">pgbot</a><br>
 <a href="https://github.com/wheelgap/wheelgap"><img src="assets/bar.svg" width="6%" height="8" alt=""></a>&ensp;<b>24</b>&ensp;<a href="https://github.com/wheelgap/wheelgap">wheelgap/wheelgap</a><br>
-<a href="https://github.com/prometheus-community/helm-charts"><img src="assets/bar.svg" width="4%" height="8" alt=""></a>&ensp;<b>14</b>&ensp;<a href="https://github.com/prometheus-community/helm-charts">prometheus-community/helm-charts</a>
+<a href="https://github.com/cfgaudit/cfgaudit"><img src="assets/bar.svg" width="4%" height="8" alt=""></a>&ensp;<b>14</b>&ensp;<a href="https://github.com/cfgaudit/cfgaudit">cfgaudit/cfgaudit</a>
 </p>
