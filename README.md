@@ -7,13 +7,13 @@
 </picture>
 
 <p>
-<b>2,659</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,151</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>500</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>28</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>2,663</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,155</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>501</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>28</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-4c0d273b-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-4c0d273b-light.svg">
-  <img src="assets/calendar-4c0d273b-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,659 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-684a62f1-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-684a62f1-light.svg">
+  <img src="assets/calendar-684a62f1-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,663 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
 <p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/EvoScientist">EvoScientist</a> on 13 November, 21:27 IST</sub></p>
 
