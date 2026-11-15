@@ -7,15 +7,15 @@
 </picture>
 
 <p>
-<b>2,668</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,161</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>505</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>30</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>2,672</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,165</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>509</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>30</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-2b468718-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-2b468718-light.svg">
-  <img src="assets/calendar-2b468718-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,668 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-dd3814ff-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-dd3814ff-light.svg">
+  <img src="assets/calendar-dd3814ff-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,672 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
-<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/scrawl">scrawl</a> on 15 November, 03:23 IST</sub></p>
+<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/terraform-provider-sentry">terraform-provider-sentry</a> on 15 November, 19:52 IST</sub></p>
 
 ### Recently merged
 
@@ -41,7 +41,7 @@
 
 <p>
 <a href="https://github.com/vllm-project/vllm/pull/64666"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Fix dead links to moved llm-d, Dynamo, TPU, Ray and Tensorizer pages</b><br>
-<sub><a href="https://github.com/vllm-project/vllm/pull/64666">vllm-project/vllm#64666</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;30&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;96.9k</sub>
+<sub><a href="https://github.com/vllm-project/vllm/pull/64666">vllm-project/vllm#64666</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;30&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;97k</sub>
 </p>
 
 <p>
