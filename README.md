@@ -7,13 +7,13 @@
 </picture>
 
 <p>
-<b>2,666</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,158</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>503</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>29</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>2,668</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,161</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>505</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>30</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-4fc43639-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-4fc43639-light.svg">
-  <img src="assets/calendar-4fc43639-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,666 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-2b468718-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-2b468718-light.svg">
+  <img src="assets/calendar-2b468718-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,668 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
 <p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/scrawl">scrawl</a> on 15 November, 03:23 IST</sub></p>
 
@@ -21,7 +21,7 @@
 
 <p>
 <a href="https://github.com/traefik/traefik/pull/14253"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Fix Gateway API conformance report and CRS ruleset links</b><br>
-<sub><a href="https://github.com/traefik/traefik/pull/14253">traefik/traefik#14253</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;12&nbsp;Nov&nbsp;&nbsp;·&nbsp; ★&nbsp;65.5k</sub>
+<sub><a href="https://github.com/traefik/traefik/pull/14253">traefik/traefik#14253</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;12&nbsp;Nov&nbsp;&nbsp;·&nbsp; ★&nbsp;65.6k</sub>
 </p>
 
 <p>
