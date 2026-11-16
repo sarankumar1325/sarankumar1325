@@ -5,13 +5,13 @@
   ],
   "calendar": {
     "start": "2025-11-16",
-    "counts": [0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,7,0,16,4,4,1,3,9,16,13,2,5,2,3,2,1,1,0,1,1,1,0,0,1,1,3,0,1,3,11,2,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,7,1,0,2,2,4,0,1,0,0,0,0,0,0,0,1,0,0,5,1,5,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,0,1,4,3,0,8,0,6,0,10,0,3,1,1,1,0,1,2,0,2,0,0,1,2,6,0,0,0,0,0,0,0,0,0,0,0,10,15,7,3,7,3,5,7,17,12,6,1,0,0,9,33,10,14,1,12,6,4,11,14,7,0,30,17,30,6,5,2,7,9,3,2,11,0,5,0,0,0,4,5,8,0,0,8,11,1,2,2,10,1,4,0,0,3,9,1,0,0,30,66,17,30,13,20,39,49,95,57,17,14,137,295,404,52,22,15,18,9,8,7,6,64,76,407,29,12,1,7,2]
+    "counts": [0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,7,0,16,4,4,1,3,9,16,13,2,5,2,3,2,1,1,0,1,1,1,0,0,1,1,3,0,1,3,11,2,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,7,1,0,2,2,4,0,1,0,0,0,0,0,0,0,1,0,0,5,1,5,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,0,1,4,3,0,8,0,6,0,10,0,3,1,1,1,0,1,2,0,2,0,0,1,2,6,0,0,0,0,0,0,0,0,0,0,0,10,15,7,3,7,3,5,7,17,12,6,1,0,0,9,33,10,14,1,12,6,4,11,14,7,0,30,17,30,6,5,2,7,9,3,2,11,0,5,0,0,0,4,5,8,0,0,8,11,1,2,2,10,1,4,0,0,3,9,1,0,0,30,66,17,30,13,20,39,49,95,57,17,14,137,295,404,52,22,15,18,9,8,7,6,64,76,408,29,12,1,7,81]
   },
-  "commits": 1167,
-  "merged": 511,
+  "commits": 1205,
+  "merged": 552,
   "push": {
-    "repo": "sarankumar1325/provlift",
-    "at": "2026-11-15T20:45:59Z"
+    "repo": "sarankumar1325/tracker",
+    "at": "2026-11-16T11:01:30Z"
   },
   "pulls": [
     {
@@ -19,7 +19,7 @@
       "number": 64666,
       "title": "[Docs] Fix dead links to moved llm-d, Dynamo, TPU, Ray and Tensorizer pages",
       "url": "https://github.com/vllm-project/vllm/pull/64666",
-      "stars": 97000,
+      "stars": 97100,
       "mergedAt": "2026-10-30T17:53:43Z"
     },
     {
@@ -35,7 +35,7 @@
       "number": 5037,
       "title": "fix(html): keep an image caption with its picture",
       "url": "https://github.com/docling-project/docling/pull/5037",
-      "stars": 70600,
+      "stars": 70700,
       "mergedAt": "2026-11-06T15:55:09Z"
     },
     {
@@ -99,7 +99,7 @@
       "number": 4536,
       "title": "fix(daemon): include pre-session history in session-preload search",
       "url": "https://github.com/atuinsh/atuin/pull/4536",
-      "stars": 32400,
+      "stars": 32500,
       "mergedAt": "2026-11-03T00:56:30Z"
     },
     {
@@ -227,7 +227,17 @@
       {
         "repo": "wheelgap/wheelgap",
         "url": "https://github.com/wheelgap/wheelgap",
-        "commits": 24
+        "commits": 29
+      },
+      {
+        "repo": "wheelgap/tracker",
+        "url": "https://github.com/wheelgap/tracker",
+        "commits": 22
+      },
+      {
+        "repo": "DiffCI/core",
+        "url": "https://github.com/DiffCI/core",
+        "commits": 18
       },
       {
         "repo": "cfgaudit/cfgaudit",
@@ -245,18 +255,8 @@
         "commits": 12
       },
       {
-        "repo": "DiffCI/core",
-        "url": "https://github.com/DiffCI/core",
-        "commits": 10
-      },
-      {
-        "repo": "uutils/findutils",
-        "url": "https://github.com/uutils/findutils",
-        "commits": 9
-      },
-      {
-        "repo": "wheelgap/tracker",
-        "url": "https://github.com/wheelgap/tracker",
+        "repo": "flisk-sh/flisk",
+        "url": "https://github.com/flisk-sh/flisk",
         "commits": 9
       }
     ],
@@ -284,7 +284,17 @@
       {
         "repo": "wheelgap/wheelgap",
         "url": "https://github.com/wheelgap/wheelgap",
-        "commits": 24
+        "commits": 29
+      },
+      {
+        "repo": "wheelgap/tracker",
+        "url": "https://github.com/wheelgap/tracker",
+        "commits": 22
+      },
+      {
+        "repo": "DiffCI/core",
+        "url": "https://github.com/DiffCI/core",
+        "commits": 18
       },
       {
         "repo": "cfgaudit/cfgaudit",
@@ -297,18 +307,8 @@
         "commits": 14
       },
       {
-        "repo": "DiffCI/core",
-        "url": "https://github.com/DiffCI/core",
-        "commits": 10
-      },
-      {
-        "repo": "uutils/findutils",
-        "url": "https://github.com/uutils/findutils",
-        "commits": 9
-      },
-      {
-        "repo": "wheelgap/tracker",
-        "url": "https://github.com/wheelgap/tracker",
+        "repo": "flisk-sh/flisk",
+        "url": "https://github.com/flisk-sh/flisk",
         "commits": 9
       }
     ]

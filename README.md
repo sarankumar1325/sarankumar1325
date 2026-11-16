@@ -7,15 +7,15 @@
 </picture>
 
 <p>
-<b>2,674</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,167</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>511</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>31</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>2,754</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,205</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>552</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>31</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-4220bb4c-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-4220bb4c-light.svg">
-  <img src="assets/calendar-4220bb4c-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,674 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-39684a0f-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-39684a0f-light.svg">
+  <img src="assets/calendar-39684a0f-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,754 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
-<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/provlift">provlift</a> on 16 November, 02:15 IST</sub></p>
+<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/tracker">tracker</a> on 16 November, 16:31 IST</sub></p>
 
 ### Recently merged
 
@@ -26,7 +26,7 @@
 
 <p>
 <a href="https://github.com/docling-project/docling/pull/5037"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Keep an image caption with its picture</b><br>
-<sub><a href="https://github.com/docling-project/docling/pull/5037">docling-project/docling#5037</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;6&nbsp;Nov&nbsp;&nbsp;·&nbsp; ★&nbsp;70.6k</sub>
+<sub><a href="https://github.com/docling-project/docling/pull/5037">docling-project/docling#5037</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;6&nbsp;Nov&nbsp;&nbsp;·&nbsp; ★&nbsp;70.7k</sub>
 </p>
 
 <p>
@@ -41,7 +41,7 @@
 
 <p>
 <a href="https://github.com/vllm-project/vllm/pull/64666"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Fix dead links to moved llm-d, Dynamo, TPU, Ray and Tensorizer pages</b><br>
-<sub><a href="https://github.com/vllm-project/vllm/pull/64666">vllm-project/vllm#64666</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;30&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;97k</sub>
+<sub><a href="https://github.com/vllm-project/vllm/pull/64666">vllm-project/vllm#64666</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;30&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;97.1k</sub>
 </p>
 
 <p>
@@ -57,6 +57,6 @@
 <a href="https://github.com/swsarancodes/goforge"><img src="assets/bar.svg" width="40%" height="8" alt=""></a>&ensp;<b>156</b>&ensp;<a href="https://github.com/swsarancodes/goforge">goforge</a><br>
 <a href="https://github.com/sarankumar1325/url-shortner"><img src="assets/bar.svg" width="31%" height="8" alt=""></a>&ensp;<b>120</b>&ensp;<a href="https://github.com/sarankumar1325/url-shortner">url-shortner</a><br>
 <a href="https://github.com/sarankumar1325/pgbot"><img src="assets/bar.svg" width="12%" height="8" alt=""></a>&ensp;<b>47</b>&ensp;<a href="https://github.com/sarankumar1325/pgbot">pgbot</a><br>
-<a href="https://github.com/wheelgap/wheelgap"><img src="assets/bar.svg" width="6%" height="8" alt=""></a>&ensp;<b>24</b>&ensp;<a href="https://github.com/wheelgap/wheelgap">wheelgap/wheelgap</a><br>
-<a href="https://github.com/cfgaudit/cfgaudit"><img src="assets/bar.svg" width="4%" height="8" alt=""></a>&ensp;<b>15</b>&ensp;<a href="https://github.com/cfgaudit/cfgaudit">cfgaudit/cfgaudit</a>
+<a href="https://github.com/wheelgap/wheelgap"><img src="assets/bar.svg" width="7%" height="8" alt=""></a>&ensp;<b>29</b>&ensp;<a href="https://github.com/wheelgap/wheelgap">wheelgap/wheelgap</a><br>
+<a href="https://github.com/wheelgap/tracker"><img src="assets/bar.svg" width="6%" height="8" alt=""></a>&ensp;<b>22</b>&ensp;<a href="https://github.com/wheelgap/tracker">wheelgap/tracker</a>
 </p>
