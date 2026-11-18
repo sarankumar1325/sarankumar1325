@@ -5,13 +5,13 @@
   ],
   "calendar": {
     "start": "2025-11-16",
-    "counts": [0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,7,0,16,4,4,1,3,9,16,13,2,5,2,3,2,1,1,0,1,1,1,0,0,1,1,3,0,1,3,11,2,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,7,1,0,2,2,4,0,1,0,0,0,0,0,0,0,1,0,0,5,1,5,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,0,1,4,3,0,8,0,6,0,10,0,3,1,1,1,0,1,2,0,2,0,0,1,2,6,0,0,0,0,0,0,0,0,0,0,0,10,15,7,3,7,3,5,7,17,12,6,1,0,0,9,33,10,14,1,12,6,4,11,14,7,0,30,17,30,6,5,2,7,9,3,2,11,0,5,0,0,0,4,5,8,0,0,8,11,1,2,2,10,1,4,0,0,3,9,1,0,0,30,66,17,30,13,20,40,50,95,58,17,14,137,294,405,52,22,15,18,9,8,7,6,64,76,408,29,12,1,7,81,18]
+    "counts": [0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,7,0,16,4,4,1,3,9,16,13,2,5,2,3,2,1,1,0,1,1,1,0,0,1,1,3,0,1,3,11,2,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,7,1,0,2,2,4,0,1,0,0,0,0,0,0,0,1,0,0,5,1,5,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,0,1,4,3,0,8,0,6,0,10,0,3,1,1,1,0,1,2,0,2,0,0,1,2,6,0,0,0,0,0,0,0,0,0,0,0,10,15,7,3,7,3,5,7,17,12,6,1,0,0,9,33,10,14,1,12,6,4,11,14,7,0,30,17,30,6,5,2,7,9,3,2,11,0,5,0,0,0,4,5,8,0,0,8,11,1,2,2,10,1,4,0,0,3,9,1,0,0,30,66,17,30,13,20,40,50,95,58,17,14,136,294,405,52,22,15,18,9,8,7,6,63,76,408,29,12,1,7,81,19,38]
   },
-  "commits": 1224,
-  "merged": 564,
+  "commits": 1236,
+  "merged": 574,
   "push": {
-    "repo": "sarankumar1325/dir",
-    "at": "2026-11-17T20:36:46Z"
+    "repo": "sarankumar1325/dataranger",
+    "at": "2026-11-18T07:35:59Z"
   },
   "pulls": [
     {
@@ -71,6 +71,14 @@
       "mergedAt": "2026-10-27T03:52:12Z"
     },
     {
+      "repo": "prisma/orm",
+      "number": 30872,
+      "title": "fix(config-loader): expand contract globs written with Windows separators",
+      "url": "https://github.com/prisma/orm/pull/30872",
+      "stars": 47700,
+      "mergedAt": "2026-11-17T22:02:50Z"
+    },
+    {
       "repo": "solidjs/solid",
       "number": 4264,
       "title": "fix(signals): don't report an item shifted into a spliced index as replaced (#4262)",
@@ -115,7 +123,7 @@
       "number": 5157,
       "title": "docs: fix dead Isaac Teleop and RealSense links",
       "url": "https://github.com/huggingface/lerobot/pull/5157",
-      "stars": 28900,
+      "stars": 29000,
       "mergedAt": "2026-10-30T09:55:42Z"
     },
     {
@@ -197,32 +205,19 @@
       "url": "https://github.com/Effect-TS/effect/pull/9991",
       "stars": 17600,
       "mergedAt": "2026-10-27T02:53:04Z"
-    },
-    {
-      "repo": "argoproj/argo-workflows",
-      "number": 17373,
-      "title": "fix(artifacts): reject S3 caSecret without a valid PEM certificate",
-      "url": "https://github.com/argoproj/argo-workflows/pull/17373",
-      "stars": 17100,
-      "mergedAt": "2026-11-04T07:14:13Z"
     }
   ],
   "repos": {
     "month": [
-      {
-        "repo": "swsarancodes/goforge",
-        "url": "https://github.com/swsarancodes/goforge",
-        "commits": 128
-      },
       {
         "repo": "sarankumar1325/url-shortner",
         "url": "https://github.com/sarankumar1325/url-shortner",
         "commits": 120
       },
       {
-        "repo": "sarankumar1325/pgbot",
-        "url": "https://github.com/sarankumar1325/pgbot",
-        "commits": 47
+        "repo": "swsarancodes/goforge",
+        "url": "https://github.com/swsarancodes/goforge",
+        "commits": 99
       },
       {
         "repo": "wheelgap/wheelgap",
@@ -230,14 +225,14 @@
         "commits": 29
       },
       {
-        "repo": "wheelgap/tracker",
-        "url": "https://github.com/wheelgap/tracker",
+        "repo": "DiffCI/core",
+        "url": "https://github.com/DiffCI/core",
         "commits": 22
       },
       {
-        "repo": "DiffCI/core",
-        "url": "https://github.com/DiffCI/core",
-        "commits": 19
+        "repo": "wheelgap/tracker",
+        "url": "https://github.com/wheelgap/tracker",
+        "commits": 22
       },
       {
         "repo": "cfgaudit/cfgaudit",
@@ -257,7 +252,12 @@
       {
         "repo": "cubrid-lab/cubrid-mcp-server",
         "url": "https://github.com/cubrid-lab/cubrid-mcp-server",
-        "commits": 9
+        "commits": 10
+      },
+      {
+        "repo": "sarankumar1325/pgbot",
+        "url": "https://github.com/sarankumar1325/pgbot",
+        "commits": 10
       }
     ],
     "quarter": [
@@ -287,14 +287,14 @@
         "commits": 29
       },
       {
-        "repo": "wheelgap/tracker",
-        "url": "https://github.com/wheelgap/tracker",
+        "repo": "DiffCI/core",
+        "url": "https://github.com/DiffCI/core",
         "commits": 22
       },
       {
-        "repo": "DiffCI/core",
-        "url": "https://github.com/DiffCI/core",
-        "commits": 19
+        "repo": "wheelgap/tracker",
+        "url": "https://github.com/wheelgap/tracker",
+        "commits": 22
       },
       {
         "repo": "cfgaudit/cfgaudit",
@@ -309,7 +309,7 @@
       {
         "repo": "cubrid-lab/cubrid-mcp-server",
         "url": "https://github.com/cubrid-lab/cubrid-mcp-server",
-        "commits": 9
+        "commits": 10
       }
     ]
   }
