@@ -5,13 +5,13 @@
   ],
   "calendar": {
     "start": "2025-11-16",
-    "counts": [0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,7,0,16,4,4,1,3,9,16,13,2,5,2,3,2,1,1,0,1,1,1,0,0,1,1,3,0,1,3,11,2,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,7,1,0,2,2,4,0,1,0,0,0,0,0,0,0,1,0,0,5,1,5,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,0,1,4,3,0,8,0,6,0,10,0,3,1,1,1,0,1,2,0,2,0,0,1,2,6,0,0,0,0,0,0,0,0,0,0,0,10,15,7,3,7,3,5,7,17,12,6,1,0,0,9,33,10,14,1,12,6,4,11,14,7,0,30,17,30,6,5,2,7,9,3,2,11,0,5,0,0,0,4,5,8,0,0,8,11,1,2,2,10,1,4,0,0,3,9,1,0,0,30,66,17,30,13,20,40,50,95,58,17,14,136,294,405,52,22,15,18,9,8,7,6,63,76,408,29,12,1,7,81,19,38]
+    "counts": [0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,7,0,16,4,4,1,3,9,16,13,2,5,2,3,2,1,1,0,1,1,1,0,0,1,1,3,0,1,3,11,2,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,7,1,0,2,2,4,0,1,0,0,0,0,0,0,0,1,0,0,5,1,5,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,0,1,4,3,0,8,0,6,0,10,0,3,1,1,1,0,1,2,0,2,0,0,1,2,6,0,0,0,0,0,0,0,0,0,0,0,10,15,7,3,7,3,5,7,17,12,6,1,0,0,9,33,10,14,1,12,6,4,11,14,7,0,30,17,30,6,5,2,7,9,3,2,11,0,5,0,0,0,4,5,8,0,0,8,11,1,2,2,10,1,4,0,0,3,9,1,0,0,30,66,17,30,13,20,40,50,95,58,17,14,136,294,405,52,22,15,18,9,8,7,6,63,76,408,29,12,1,7,81,19,86]
   },
-  "commits": 1236,
-  "merged": 574,
+  "commits": 1266,
+  "merged": 605,
   "push": {
-    "repo": "sarankumar1325/dataranger",
-    "at": "2026-11-18T07:35:59Z"
+    "repo": "sarankumar1325/flisk",
+    "at": "2026-11-18T17:53:02Z"
   },
   "pulls": [
     {
@@ -19,7 +19,7 @@
       "number": 64666,
       "title": "[Docs] Fix dead links to moved llm-d, Dynamo, TPU, Ray and Tensorizer pages",
       "url": "https://github.com/vllm-project/vllm/pull/64666",
-      "stars": 97100,
+      "stars": 97200,
       "mergedAt": "2026-10-30T17:53:43Z"
     },
     {
@@ -35,7 +35,7 @@
       "number": 5037,
       "title": "fix(html): keep an image caption with its picture",
       "url": "https://github.com/docling-project/docling/pull/5037",
-      "stars": 70700,
+      "stars": 70800,
       "mergedAt": "2026-11-06T15:55:09Z"
     },
     {
@@ -51,8 +51,16 @@
       "number": 40049,
       "title": "fix(api): remove git remote when deleting a push mirror",
       "url": "https://github.com/go-gitea/gitea/pull/40049",
-      "stars": 59100,
+      "stars": 59200,
       "mergedAt": "2026-10-31T17:47:36Z"
+    },
+    {
+      "repo": "multica-ai/multica",
+      "number": 9573,
+      "title": "MUL-8277 fix(issues): load every Gantt page when the server caps page size",
+      "url": "https://github.com/multica-ai/multica/pull/9573",
+      "stars": 56600,
+      "mergedAt": "2026-10-27T03:52:12Z"
     },
     {
       "repo": "remix-run/react-router",
@@ -61,14 +69,6 @@
       "url": "https://github.com/remix-run/react-router/pull/15680",
       "stars": 56600,
       "mergedAt": "2026-10-23T18:52:18Z"
-    },
-    {
-      "repo": "multica-ai/multica",
-      "number": 9573,
-      "title": "MUL-8277 fix(issues): load every Gantt page when the server caps page size",
-      "url": "https://github.com/multica-ai/multica/pull/9573",
-      "stars": 56500,
-      "mergedAt": "2026-10-27T03:52:12Z"
     },
     {
       "repo": "prisma/orm",
@@ -83,8 +83,16 @@
       "number": 4264,
       "title": "fix(signals): don't report an item shifted into a spliced index as replaced (#4262)",
       "url": "https://github.com/solidjs/solid/pull/4264",
-      "stars": 36300,
+      "stars": 36500,
       "mergedAt": "2026-10-26T06:13:06Z"
+    },
+    {
+      "repo": "zellij-org/zellij",
+      "number": 5862,
+      "title": "fix(client): stop stdin_pump spinning after stdin EOF",
+      "url": "https://github.com/zellij-org/zellij/pull/5862",
+      "stars": 36100,
+      "mergedAt": "2026-11-18T17:04:14Z"
     },
     {
       "repo": "huggingface/diffusers",
@@ -197,14 +205,6 @@
       "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/pull/11851",
       "stars": 18100,
       "mergedAt": "2026-11-05T19:36:51Z"
-    },
-    {
-      "repo": "Effect-TS/effect",
-      "number": 9991,
-      "title": "fix(PubSub): release replay buffer once the replay window is exhausted",
-      "url": "https://github.com/Effect-TS/effect/pull/9991",
-      "stars": 17600,
-      "mergedAt": "2026-10-27T02:53:04Z"
     }
   ],
   "repos": {
@@ -220,6 +220,11 @@
         "commits": 99
       },
       {
+        "repo": "wheelgap/tracker",
+        "url": "https://github.com/wheelgap/tracker",
+        "commits": 31
+      },
+      {
         "repo": "wheelgap/wheelgap",
         "url": "https://github.com/wheelgap/wheelgap",
         "commits": 29
@@ -227,17 +232,12 @@
       {
         "repo": "DiffCI/core",
         "url": "https://github.com/DiffCI/core",
-        "commits": 22
-      },
-      {
-        "repo": "wheelgap/tracker",
-        "url": "https://github.com/wheelgap/tracker",
-        "commits": 22
+        "commits": 25
       },
       {
         "repo": "cfgaudit/cfgaudit",
         "url": "https://github.com/cfgaudit/cfgaudit",
-        "commits": 15
+        "commits": 23
       },
       {
         "repo": "prometheus-community/helm-charts",
@@ -250,13 +250,13 @@
         "commits": 12
       },
       {
-        "repo": "cubrid-lab/cubrid-mcp-server",
-        "url": "https://github.com/cubrid-lab/cubrid-mcp-server",
-        "commits": 10
+        "repo": "glsec/glsec",
+        "url": "https://github.com/glsec/glsec",
+        "commits": 11
       },
       {
-        "repo": "sarankumar1325/pgbot",
-        "url": "https://github.com/sarankumar1325/pgbot",
+        "repo": "cubrid-lab/cubrid-mcp-server",
+        "url": "https://github.com/cubrid-lab/cubrid-mcp-server",
         "commits": 10
       }
     ],
@@ -282,6 +282,11 @@
         "commits": 47
       },
       {
+        "repo": "wheelgap/tracker",
+        "url": "https://github.com/wheelgap/tracker",
+        "commits": 31
+      },
+      {
         "repo": "wheelgap/wheelgap",
         "url": "https://github.com/wheelgap/wheelgap",
         "commits": 29
@@ -289,17 +294,12 @@
       {
         "repo": "DiffCI/core",
         "url": "https://github.com/DiffCI/core",
-        "commits": 22
-      },
-      {
-        "repo": "wheelgap/tracker",
-        "url": "https://github.com/wheelgap/tracker",
-        "commits": 22
+        "commits": 25
       },
       {
         "repo": "cfgaudit/cfgaudit",
         "url": "https://github.com/cfgaudit/cfgaudit",
-        "commits": 15
+        "commits": 23
       },
       {
         "repo": "prometheus-community/helm-charts",
@@ -307,9 +307,9 @@
         "commits": 14
       },
       {
-        "repo": "cubrid-lab/cubrid-mcp-server",
-        "url": "https://github.com/cubrid-lab/cubrid-mcp-server",
-        "commits": 10
+        "repo": "glsec/glsec",
+        "url": "https://github.com/glsec/glsec",
+        "commits": 11
       }
     ]
   }

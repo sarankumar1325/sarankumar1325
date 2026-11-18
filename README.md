@@ -7,15 +7,15 @@
 </picture>
 
 <p>
-<b>2,812</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,236</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>574</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>33</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>2,860</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,266</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>605</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>33</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-edc6144a-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-edc6144a-light.svg">
-  <img src="assets/calendar-edc6144a-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,812 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-bc2949e9-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-bc2949e9-light.svg">
+  <img src="assets/calendar-bc2949e9-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,860 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
-<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/dataranger">dataranger</a> on 18 November, 13:05 IST</sub></p>
+<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/flisk">flisk</a> on 18 November, 23:23 IST</sub></p>
 
 ### Recently merged
 
@@ -26,7 +26,7 @@
 
 <p>
 <a href="https://github.com/docling-project/docling/pull/5037"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Keep an image caption with its picture</b><br>
-<sub><a href="https://github.com/docling-project/docling/pull/5037">docling-project/docling#5037</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;6&nbsp;Nov&nbsp;&nbsp;·&nbsp; ★&nbsp;70.7k</sub>
+<sub><a href="https://github.com/docling-project/docling/pull/5037">docling-project/docling#5037</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;6&nbsp;Nov&nbsp;&nbsp;·&nbsp; ★&nbsp;70.8k</sub>
 </p>
 
 <p>
@@ -36,17 +36,17 @@
 
 <p>
 <a href="https://github.com/go-gitea/gitea/pull/40049"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Remove git remote when deleting a push mirror</b><br>
-<sub><a href="https://github.com/go-gitea/gitea/pull/40049">go-gitea/gitea#40049</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;31&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;59.1k</sub>
+<sub><a href="https://github.com/go-gitea/gitea/pull/40049">go-gitea/gitea#40049</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;31&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;59.2k</sub>
 </p>
 
 <p>
 <a href="https://github.com/vllm-project/vllm/pull/64666"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Fix dead links to moved llm-d, Dynamo, TPU, Ray and Tensorizer pages</b><br>
-<sub><a href="https://github.com/vllm-project/vllm/pull/64666">vllm-project/vllm#64666</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;30&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;97.1k</sub>
+<sub><a href="https://github.com/vllm-project/vllm/pull/64666">vllm-project/vllm#64666</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;30&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;97.2k</sub>
 </p>
 
 <p>
-<a href="https://github.com/remix-run/react-router/pull/15680"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Keep the global Document type out of the published route discovery types</b><br>
-<sub><a href="https://github.com/remix-run/react-router/pull/15680">remix-run/react-router#15680</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;24&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;56.6k</sub>
+<a href="https://github.com/multica-ai/multica/pull/9573"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>MUL-8277 fix(issues): load every Gantt page when the server caps page size</b><br>
+<sub><a href="https://github.com/multica-ai/multica/pull/9573">multica-ai/multica#9573</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;27&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;56.6k</sub>
 </p>
 
 <p><sub><a href="https://github.com/search?q=author%3Asarankumar1325%20author%3Aswsarancodes%20is%3Apr%20is%3Amerged&amp;type=pullrequests">All merged pull requests</a></sub></p>
@@ -56,7 +56,7 @@
 <p>
 <a href="https://github.com/sarankumar1325/url-shortner"><img src="assets/bar.svg" width="40%" height="8" alt=""></a>&ensp;<b>120</b>&ensp;<a href="https://github.com/sarankumar1325/url-shortner">url-shortner</a><br>
 <a href="https://github.com/swsarancodes/goforge"><img src="assets/bar.svg" width="33%" height="8" alt=""></a>&ensp;<b>99</b>&ensp;<a href="https://github.com/swsarancodes/goforge">goforge</a><br>
+<a href="https://github.com/wheelgap/tracker"><img src="assets/bar.svg" width="10%" height="8" alt=""></a>&ensp;<b>31</b>&ensp;<a href="https://github.com/wheelgap/tracker">wheelgap/tracker</a><br>
 <a href="https://github.com/wheelgap/wheelgap"><img src="assets/bar.svg" width="10%" height="8" alt=""></a>&ensp;<b>29</b>&ensp;<a href="https://github.com/wheelgap/wheelgap">wheelgap/wheelgap</a><br>
-<a href="https://github.com/DiffCI/core"><img src="assets/bar.svg" width="7%" height="8" alt=""></a>&ensp;<b>22</b>&ensp;<a href="https://github.com/DiffCI/core">DiffCI/core</a><br>
-<a href="https://github.com/wheelgap/tracker"><img src="assets/bar.svg" width="7%" height="8" alt=""></a>&ensp;<b>22</b>&ensp;<a href="https://github.com/wheelgap/tracker">wheelgap/tracker</a>
+<a href="https://github.com/DiffCI/core"><img src="assets/bar.svg" width="8%" height="8" alt=""></a>&ensp;<b>25</b>&ensp;<a href="https://github.com/DiffCI/core">DiffCI/core</a>
 </p>
