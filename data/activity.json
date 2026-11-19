@@ -5,13 +5,13 @@
   ],
   "calendar": {
     "start": "2025-11-16",
-    "counts": [0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,7,0,16,4,4,1,3,9,16,13,2,5,2,3,2,1,1,0,1,1,1,0,0,1,1,3,0,1,3,11,2,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,7,1,0,2,2,4,0,1,0,0,0,0,0,0,0,1,0,0,5,1,5,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,0,1,4,3,0,8,0,6,0,10,0,3,1,1,1,0,1,2,0,2,0,0,1,2,6,0,0,0,0,0,0,0,0,0,0,0,10,15,7,3,7,3,5,7,17,12,6,1,0,0,9,33,10,14,1,12,6,4,11,14,7,0,30,17,30,6,5,2,7,9,3,2,11,0,5,0,0,0,4,5,8,0,0,8,11,1,2,2,10,1,4,0,0,3,9,1,0,0,30,66,17,30,13,20,40,50,95,58,17,14,136,294,405,52,22,15,18,9,8,7,6,63,76,408,29,12,1,7,81,19,86]
+    "counts": [0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,7,0,16,4,4,1,3,9,16,13,2,5,2,3,2,1,1,0,1,1,1,0,0,1,1,3,0,1,3,11,2,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,7,1,0,2,2,4,0,1,0,0,0,0,0,0,0,1,0,0,5,1,5,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,0,1,4,3,0,8,0,6,0,10,0,3,1,1,1,0,1,2,0,2,0,0,1,2,6,0,0,0,0,0,0,0,0,0,0,0,10,15,7,3,7,3,5,7,17,12,6,1,0,0,9,33,10,14,1,12,6,4,11,14,7,0,30,17,30,6,5,2,7,9,3,2,11,0,5,0,0,0,4,5,8,0,0,8,11,1,2,2,10,1,4,0,0,3,9,1,0,0,30,66,17,30,13,20,40,50,95,58,17,14,136,294,405,52,22,15,18,9,8,7,6,63,76,408,29,12,1,7,81,19,86,6]
   },
-  "commits": 1266,
-  "merged": 605,
+  "commits": 1272,
+  "merged": 610,
   "push": {
     "repo": "sarankumar1325/flisk",
-    "at": "2026-11-18T17:53:02Z"
+    "at": "2026-11-18T21:54:28Z"
   },
   "pulls": [
     {
@@ -59,7 +59,7 @@
       "number": 9573,
       "title": "MUL-8277 fix(issues): load every Gantt page when the server caps page size",
       "url": "https://github.com/multica-ai/multica/pull/9573",
-      "stars": 56600,
+      "stars": 56700,
       "mergedAt": "2026-10-27T03:52:12Z"
     },
     {
@@ -83,7 +83,7 @@
       "number": 4264,
       "title": "fix(signals): don't report an item shifted into a spliced index as replaced (#4262)",
       "url": "https://github.com/solidjs/solid/pull/4264",
-      "stars": 36500,
+      "stars": 36700,
       "mergedAt": "2026-10-26T06:13:06Z"
     },
     {
@@ -217,7 +217,7 @@
       {
         "repo": "swsarancodes/goforge",
         "url": "https://github.com/swsarancodes/goforge",
-        "commits": 99
+        "commits": 95
       },
       {
         "repo": "wheelgap/tracker",
@@ -232,7 +232,7 @@
       {
         "repo": "DiffCI/core",
         "url": "https://github.com/DiffCI/core",
-        "commits": 25
+        "commits": 26
       },
       {
         "repo": "cfgaudit/cfgaudit",
@@ -242,7 +242,7 @@
       {
         "repo": "prometheus-community/helm-charts",
         "url": "https://github.com/prometheus-community/helm-charts",
-        "commits": 14
+        "commits": 15
       },
       {
         "repo": "swsarancodes/Manicule",
@@ -250,21 +250,21 @@
         "commits": 12
       },
       {
-        "repo": "glsec/glsec",
-        "url": "https://github.com/glsec/glsec",
+        "repo": "cubrid-lab/cubrid-mcp-server",
+        "url": "https://github.com/cubrid-lab/cubrid-mcp-server",
         "commits": 11
       },
       {
-        "repo": "cubrid-lab/cubrid-mcp-server",
-        "url": "https://github.com/cubrid-lab/cubrid-mcp-server",
-        "commits": 10
+        "repo": "glsec/glsec",
+        "url": "https://github.com/glsec/glsec",
+        "commits": 11
       }
     ],
     "quarter": [
       {
         "repo": "swsarancodes/goforge",
         "url": "https://github.com/swsarancodes/goforge",
-        "commits": 174
+        "commits": 172
       },
       {
         "repo": "sarankumar1325/url-shortner",
@@ -294,7 +294,7 @@
       {
         "repo": "DiffCI/core",
         "url": "https://github.com/DiffCI/core",
-        "commits": 25
+        "commits": 26
       },
       {
         "repo": "cfgaudit/cfgaudit",
@@ -304,11 +304,11 @@
       {
         "repo": "prometheus-community/helm-charts",
         "url": "https://github.com/prometheus-community/helm-charts",
-        "commits": 14
+        "commits": 15
       },
       {
-        "repo": "glsec/glsec",
-        "url": "https://github.com/glsec/glsec",
+        "repo": "cubrid-lab/cubrid-mcp-server",
+        "url": "https://github.com/cubrid-lab/cubrid-mcp-server",
         "commits": 11
       }
     ]

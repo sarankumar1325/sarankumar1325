@@ -7,15 +7,15 @@
 </picture>
 
 <p>
-<b>2,860</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,266</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>605</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>33</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>2,866</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,272</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>610</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>34</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-bc2949e9-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-bc2949e9-light.svg">
-  <img src="assets/calendar-bc2949e9-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,860 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-90cb76a8-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-90cb76a8-light.svg">
+  <img src="assets/calendar-90cb76a8-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,866 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
-<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/flisk">flisk</a> on 18 November, 23:23 IST</sub></p>
+<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/flisk">flisk</a> on 19 November, 03:24 IST</sub></p>
 
 ### Recently merged
 
@@ -46,7 +46,7 @@
 
 <p>
 <a href="https://github.com/multica-ai/multica/pull/9573"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>MUL-8277 fix(issues): load every Gantt page when the server caps page size</b><br>
-<sub><a href="https://github.com/multica-ai/multica/pull/9573">multica-ai/multica#9573</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;27&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;56.6k</sub>
+<sub><a href="https://github.com/multica-ai/multica/pull/9573">multica-ai/multica#9573</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;27&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;56.7k</sub>
 </p>
 
 <p><sub><a href="https://github.com/search?q=author%3Asarankumar1325%20author%3Aswsarancodes%20is%3Apr%20is%3Amerged&amp;type=pullrequests">All merged pull requests</a></sub></p>
@@ -55,8 +55,8 @@
 
 <p>
 <a href="https://github.com/sarankumar1325/url-shortner"><img src="assets/bar.svg" width="40%" height="8" alt=""></a>&ensp;<b>120</b>&ensp;<a href="https://github.com/sarankumar1325/url-shortner">url-shortner</a><br>
-<a href="https://github.com/swsarancodes/goforge"><img src="assets/bar.svg" width="33%" height="8" alt=""></a>&ensp;<b>99</b>&ensp;<a href="https://github.com/swsarancodes/goforge">goforge</a><br>
+<a href="https://github.com/swsarancodes/goforge"><img src="assets/bar.svg" width="32%" height="8" alt=""></a>&ensp;<b>95</b>&ensp;<a href="https://github.com/swsarancodes/goforge">goforge</a><br>
 <a href="https://github.com/wheelgap/tracker"><img src="assets/bar.svg" width="10%" height="8" alt=""></a>&ensp;<b>31</b>&ensp;<a href="https://github.com/wheelgap/tracker">wheelgap/tracker</a><br>
 <a href="https://github.com/wheelgap/wheelgap"><img src="assets/bar.svg" width="10%" height="8" alt=""></a>&ensp;<b>29</b>&ensp;<a href="https://github.com/wheelgap/wheelgap">wheelgap/wheelgap</a><br>
-<a href="https://github.com/DiffCI/core"><img src="assets/bar.svg" width="8%" height="8" alt=""></a>&ensp;<b>25</b>&ensp;<a href="https://github.com/DiffCI/core">DiffCI/core</a>
+<a href="https://github.com/DiffCI/core"><img src="assets/bar.svg" width="9%" height="8" alt=""></a>&ensp;<b>26</b>&ensp;<a href="https://github.com/DiffCI/core">DiffCI/core</a>
 </p>
