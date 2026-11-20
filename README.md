@@ -7,13 +7,13 @@
 </picture>
 
 <p>
-<b>2,873</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,275</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>616</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>34</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>2,879</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,281</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>619</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>35</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-282fb088-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-282fb088-light.svg">
-  <img src="assets/calendar-282fb088-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,873 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-3b77fc5f-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-3b77fc5f-light.svg">
+  <img src="assets/calendar-3b77fc5f-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,879 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
 <p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/dir">dir</a> on 20 November, 02:10 IST</sub></p>
 
@@ -55,7 +55,7 @@
 
 <p>
 <a href="https://github.com/sarankumar1325/url-shortner"><img src="assets/bar.svg" width="40%" height="8" alt=""></a>&ensp;<b>120</b>&ensp;<a href="https://github.com/sarankumar1325/url-shortner">url-shortner</a><br>
-<a href="https://github.com/swsarancodes/goforge"><img src="assets/bar.svg" width="32%" height="8" alt=""></a>&ensp;<b>95</b>&ensp;<a href="https://github.com/swsarancodes/goforge">goforge</a><br>
+<a href="https://github.com/swsarancodes/goforge"><img src="assets/bar.svg" width="28%" height="8" alt=""></a>&ensp;<b>85</b>&ensp;<a href="https://github.com/swsarancodes/goforge">goforge</a><br>
 <a href="https://github.com/wheelgap/tracker"><img src="assets/bar.svg" width="10%" height="8" alt=""></a>&ensp;<b>31</b>&ensp;<a href="https://github.com/wheelgap/tracker">wheelgap/tracker</a><br>
 <a href="https://github.com/wheelgap/wheelgap"><img src="assets/bar.svg" width="10%" height="8" alt=""></a>&ensp;<b>29</b>&ensp;<a href="https://github.com/wheelgap/wheelgap">wheelgap/wheelgap</a><br>
 <a href="https://github.com/DiffCI/core"><img src="assets/bar.svg" width="9%" height="8" alt=""></a>&ensp;<b>26</b>&ensp;<a href="https://github.com/DiffCI/core">DiffCI/core</a>
