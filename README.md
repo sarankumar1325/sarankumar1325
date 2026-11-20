@@ -7,15 +7,15 @@
 </picture>
 
 <p>
-<b>2,879</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,281</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>619</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>35</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>2,883</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,285</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>623</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>35</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-3b77fc5f-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-3b77fc5f-light.svg">
-  <img src="assets/calendar-3b77fc5f-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,879 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-cdf92871-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-cdf92871-light.svg">
+  <img src="assets/calendar-cdf92871-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,883 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
-<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/dir">dir</a> on 20 November, 02:10 IST</sub></p>
+<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/alertmanager">alertmanager</a> on 20 November, 15:26 IST</sub></p>
 
 ### Recently merged
 
@@ -31,7 +31,7 @@
 
 <p>
 <a href="https://github.com/nektos/act/pull/6234"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Match GitHub remotes with ports and git:// URLs again</b><br>
-<sub><a href="https://github.com/nektos/act/pull/6234">nektos/act#6234</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;31&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;72.7k</sub>
+<sub><a href="https://github.com/nektos/act/pull/6234">nektos/act#6234</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;31&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;72.8k</sub>
 </p>
 
 <p>
@@ -41,12 +41,12 @@
 
 <p>
 <a href="https://github.com/vllm-project/vllm/pull/64666"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Fix dead links to moved llm-d, Dynamo, TPU, Ray and Tensorizer pages</b><br>
-<sub><a href="https://github.com/vllm-project/vllm/pull/64666">vllm-project/vllm#64666</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;30&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;97.2k</sub>
+<sub><a href="https://github.com/vllm-project/vllm/pull/64666">vllm-project/vllm#64666</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;30&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;97.3k</sub>
 </p>
 
 <p>
 <a href="https://github.com/multica-ai/multica/pull/9573"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>MUL-8277 fix(issues): load every Gantt page when the server caps page size</b><br>
-<sub><a href="https://github.com/multica-ai/multica/pull/9573">multica-ai/multica#9573</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;27&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;56.8k</sub>
+<sub><a href="https://github.com/multica-ai/multica/pull/9573">multica-ai/multica#9573</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;27&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;56.9k</sub>
 </p>
 
 <p><sub><a href="https://github.com/search?q=author%3Asarankumar1325%20author%3Aswsarancodes%20is%3Apr%20is%3Amerged&amp;type=pullrequests">All merged pull requests</a></sub></p>
