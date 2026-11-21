@@ -7,13 +7,13 @@
 </picture>
 
 <p>
-<b>2,884</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,286</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>624</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>36</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>2,887</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,289</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>626</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>36</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-087987be-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-087987be-light.svg">
-  <img src="assets/calendar-087987be-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,884 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-30908a50-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-30908a50-light.svg">
+  <img src="assets/calendar-30908a50-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,887 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
 <p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/alertmanager">alertmanager</a> on 20 November, 15:26 IST</sub></p>
 
