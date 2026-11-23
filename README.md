@@ -7,13 +7,13 @@
 </picture>
 
 <p>
-<b>2,955</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,297</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>632</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>37</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>2,957</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,299</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>634</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>38</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-8446b9b2-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-8446b9b2-light.svg">
-  <img src="assets/calendar-8446b9b2-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,955 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-ba678314-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-ba678314-light.svg">
+  <img src="assets/calendar-ba678314-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,957 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
 <p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/tao">tao</a> on 22 November, 21:23 IST</sub></p>
 
@@ -21,7 +21,7 @@
 
 <p>
 <a href="https://github.com/tauri-apps/tauri/pull/16614"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Pass the required argument in two Window examples</b><br>
-<sub><a href="https://github.com/tauri-apps/tauri/pull/16614">tauri-apps/tauri#16614</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;22&nbsp;Nov&nbsp;&nbsp;·&nbsp; ★&nbsp;113.1k</sub>
+<sub><a href="https://github.com/tauri-apps/tauri/pull/16614">tauri-apps/tauri#16614</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;22&nbsp;Nov&nbsp;&nbsp;·&nbsp; ★&nbsp;113.2k</sub>
 </p>
 
 <p>
@@ -54,9 +54,9 @@
 ### Commits in the last 30 days
 
 <p>
-<a href="https://github.com/sarankumar1325/url-shortner"><img src="assets/bar.svg" width="40%" height="8" alt=""></a>&ensp;<b>120</b>&ensp;<a href="https://github.com/sarankumar1325/url-shortner">url-shortner</a><br>
-<a href="https://github.com/swsarancodes/goforge"><img src="assets/bar.svg" width="28%" height="8" alt=""></a>&ensp;<b>85</b>&ensp;<a href="https://github.com/swsarancodes/goforge">goforge</a><br>
-<a href="https://github.com/wheelgap/tracker"><img src="assets/bar.svg" width="10%" height="8" alt=""></a>&ensp;<b>31</b>&ensp;<a href="https://github.com/wheelgap/tracker">wheelgap/tracker</a><br>
+<a href="https://github.com/sarankumar1325/url-shortner"><img src="assets/bar.svg" width="40%" height="8" alt=""></a>&ensp;<b>118</b>&ensp;<a href="https://github.com/sarankumar1325/url-shortner">url-shortner</a><br>
+<a href="https://github.com/swsarancodes/goforge"><img src="assets/bar.svg" width="25%" height="8" alt=""></a>&ensp;<b>74</b>&ensp;<a href="https://github.com/swsarancodes/goforge">goforge</a><br>
+<a href="https://github.com/wheelgap/tracker"><img src="assets/bar.svg" width="11%" height="8" alt=""></a>&ensp;<b>31</b>&ensp;<a href="https://github.com/wheelgap/tracker">wheelgap/tracker</a><br>
 <a href="https://github.com/wheelgap/wheelgap"><img src="assets/bar.svg" width="10%" height="8" alt=""></a>&ensp;<b>29</b>&ensp;<a href="https://github.com/wheelgap/wheelgap">wheelgap/wheelgap</a><br>
 <a href="https://github.com/DiffCI/core"><img src="assets/bar.svg" width="9%" height="8" alt=""></a>&ensp;<b>26</b>&ensp;<a href="https://github.com/DiffCI/core">DiffCI/core</a>
 </p>
