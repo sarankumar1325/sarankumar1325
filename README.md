@@ -7,21 +7,21 @@
 </picture>
 
 <p>
-<b>2,957</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,299</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>634</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>38</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>2,962</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,302</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>640</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>38</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-ba678314-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-ba678314-light.svg">
-  <img src="assets/calendar-ba678314-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,957 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-fb8d09ab-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-fb8d09ab-light.svg">
+  <img src="assets/calendar-fb8d09ab-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,962 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
-<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/tao">tao</a> on 22 November, 21:23 IST</sub></p>
+<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/vue-router">vue-router</a> on 23 November, 14:38 IST</sub></p>
 
 ### Recently merged
 
 <p>
 <a href="https://github.com/tauri-apps/tauri/pull/16614"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Pass the required argument in two Window examples</b><br>
-<sub><a href="https://github.com/tauri-apps/tauri/pull/16614">tauri-apps/tauri#16614</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;22&nbsp;Nov&nbsp;&nbsp;·&nbsp; ★&nbsp;113.2k</sub>
+<sub><a href="https://github.com/tauri-apps/tauri/pull/16614">tauri-apps/tauri#16614</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;22&nbsp;Nov&nbsp;&nbsp;·&nbsp; ★&nbsp;113.1k</sub>
 </p>
 
 <p>
