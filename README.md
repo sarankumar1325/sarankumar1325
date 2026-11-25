@@ -7,15 +7,15 @@
 </picture>
 
 <p>
-<b>2,987</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,316</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>647</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>39</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>3,032</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,309</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>643</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>40</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-81341323-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-81341323-light.svg">
-  <img src="assets/calendar-81341323-light.svg" width="846" alt="Contribution graph for the last 12 months: 2,987 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-d2001a78-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-d2001a78-light.svg">
+  <img src="assets/calendar-d2001a78-light.svg" width="846" alt="Contribution graph for the last 12 months: 3,032 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
-<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/traefik-helm-chart">traefik-helm-chart</a> on 24 November, 22:51 IST</sub></p>
+<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/website-3">website-3</a> on 25 November, 06:16 IST</sub></p>
 
 ### Recently merged
 
@@ -55,8 +55,8 @@
 
 <p>
 <a href="https://github.com/sarankumar1325/url-shortner"><img src="assets/bar.svg" width="40%" height="8" alt=""></a>&ensp;<b>118</b>&ensp;<a href="https://github.com/sarankumar1325/url-shortner">url-shortner</a><br>
-<a href="https://github.com/swsarancodes/goforge"><img src="assets/bar.svg" width="21%" height="8" alt=""></a>&ensp;<b>61</b>&ensp;<a href="https://github.com/swsarancodes/goforge">goforge</a><br>
 <a href="https://github.com/wheelgap/tracker"><img src="assets/bar.svg" width="11%" height="8" alt=""></a>&ensp;<b>31</b>&ensp;<a href="https://github.com/wheelgap/tracker">wheelgap/tracker</a><br>
 <a href="https://github.com/wheelgap/wheelgap"><img src="assets/bar.svg" width="10%" height="8" alt=""></a>&ensp;<b>29</b>&ensp;<a href="https://github.com/wheelgap/wheelgap">wheelgap/wheelgap</a><br>
-<a href="https://github.com/DiffCI/core"><img src="assets/bar.svg" width="9%" height="8" alt=""></a>&ensp;<b>26</b>&ensp;<a href="https://github.com/DiffCI/core">DiffCI/core</a>
+<a href="https://github.com/DiffCI/core"><img src="assets/bar.svg" width="9%" height="8" alt=""></a>&ensp;<b>26</b>&ensp;<a href="https://github.com/DiffCI/core">DiffCI/core</a><br>
+<a href="https://github.com/cfgaudit/cfgaudit"><img src="assets/bar.svg" width="8%" height="8" alt=""></a>&ensp;<b>23</b>&ensp;<a href="https://github.com/cfgaudit/cfgaudit">cfgaudit/cfgaudit</a>
 </p>
