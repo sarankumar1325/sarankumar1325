@@ -7,21 +7,21 @@
 </picture>
 
 <p>
-<b>3,032</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,309</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>643</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>40</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>3,038</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,313</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>642</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>40</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-d2001a78-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-d2001a78-light.svg">
-  <img src="assets/calendar-d2001a78-light.svg" width="846" alt="Contribution graph for the last 12 months: 3,032 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-db4e2684-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-db4e2684-light.svg">
+  <img src="assets/calendar-db4e2684-light.svg" width="846" alt="Contribution graph for the last 12 months: 3,038 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
-<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/website-3">website-3</a> on 25 November, 06:16 IST</sub></p>
+<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/docs-1">docs-1</a> on 26 November, 00:23 IST</sub></p>
 
 ### Recently merged
 
 <p>
 <a href="https://github.com/tauri-apps/tauri/pull/16614"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Pass the required argument in two Window examples</b><br>
-<sub><a href="https://github.com/tauri-apps/tauri/pull/16614">tauri-apps/tauri#16614</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;22&nbsp;Nov&nbsp;&nbsp;·&nbsp; ★&nbsp;113.1k</sub>
+<sub><a href="https://github.com/tauri-apps/tauri/pull/16614">tauri-apps/tauri#16614</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;22&nbsp;Nov&nbsp;&nbsp;·&nbsp; ★&nbsp;113.2k</sub>
 </p>
 
 <p>
@@ -41,12 +41,12 @@
 
 <p>
 <a href="https://github.com/go-gitea/gitea/pull/40049"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Remove git remote when deleting a push mirror</b><br>
-<sub><a href="https://github.com/go-gitea/gitea/pull/40049">go-gitea/gitea#40049</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;31&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;59.2k</sub>
+<sub><a href="https://github.com/go-gitea/gitea/pull/40049">go-gitea/gitea#40049</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;31&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;59.3k</sub>
 </p>
 
 <p>
 <a href="https://github.com/vllm-project/vllm/pull/64666"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Fix dead links to moved llm-d, Dynamo, TPU, Ray and Tensorizer pages</b><br>
-<sub><a href="https://github.com/vllm-project/vllm/pull/64666">vllm-project/vllm#64666</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;30&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;97.5k</sub>
+<sub><a href="https://github.com/vllm-project/vllm/pull/64666">vllm-project/vllm#64666</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;30&nbsp;Oct&nbsp;&nbsp;·&nbsp; ★&nbsp;97.6k</sub>
 </p>
 
 <p><sub><a href="https://github.com/search?q=author%3Asarankumar1325%20author%3Aswsarancodes%20is%3Apr%20is%3Amerged&amp;type=pullrequests">All merged pull requests</a></sub></p>
