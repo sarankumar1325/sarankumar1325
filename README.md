@@ -11,9 +11,9 @@
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-db4e2684-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-db4e2684-light.svg">
-  <img src="assets/calendar-db4e2684-light.svg" width="846" alt="Contribution graph for the last 12 months: 3,038 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-d5ac099f-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-d5ac099f-light.svg">
+  <img src="assets/calendar-d5ac099f-light.svg" width="846" alt="Contribution graph for the last 12 months: 3,038 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
 <p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/docs-1">docs-1</a> on 26 November, 00:23 IST</sub></p>
 
@@ -31,7 +31,7 @@
 
 <p>
 <a href="https://github.com/docling-project/docling/pull/5037"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Keep an image caption with its picture</b><br>
-<sub><a href="https://github.com/docling-project/docling/pull/5037">docling-project/docling#5037</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;6&nbsp;Nov&nbsp;&nbsp;·&nbsp; ★&nbsp;71k</sub>
+<sub><a href="https://github.com/docling-project/docling/pull/5037">docling-project/docling#5037</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;6&nbsp;Nov&nbsp;&nbsp;·&nbsp; ★&nbsp;71.1k</sub>
 </p>
 
 <p>
