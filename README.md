@@ -7,26 +7,26 @@
 </picture>
 
 <p>
-<b>3,276</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,336</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>669</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>42</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
+<b>3,293</b>&nbsp;contributions&nbsp;in&nbsp;the&nbsp;last&nbsp;year&nbsp;&nbsp;·&nbsp; <b>1,353</b>&nbsp;commits&nbsp;&nbsp;·&nbsp; <b>686</b>&nbsp;pull&nbsp;requests&nbsp;merged&nbsp;&nbsp;·&nbsp; <b>42</b>&nbsp;days&nbsp;in&nbsp;a&nbsp;row
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-be9afb2a-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-be9afb2a-light.svg">
-  <img src="assets/calendar-be9afb2a-light.svg" width="846" alt="Contribution graph for the last 12 months: 3,276 contributions across @sarankumar1325 and @swsarancodes.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-bad24a94-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/calendar-bad24a94-light.svg">
+  <img src="assets/calendar-bad24a94-light.svg" width="846" alt="Contribution graph for the last 12 months: 3,293 contributions across @sarankumar1325 and @swsarancodes.">
 </picture>
-<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/amqp091-go">amqp091-go</a> on 27 November, 12:44 IST</sub></p>
+<p><sub>Counting <a href="https://github.com/sarankumar1325">@sarankumar1325</a> and <a href="https://github.com/swsarancodes">@swsarancodes</a>&nbsp;&nbsp;·&nbsp; last push to <a href="https://github.com/sarankumar1325/docs-1">docs-1</a> on 28 November, 00:01 IST</sub></p>
 
 ### Recently merged
 
 <p>
 <a href="https://github.com/tauri-apps/tauri/pull/16614"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Pass the required argument in two Window examples</b><br>
-<sub><a href="https://github.com/tauri-apps/tauri/pull/16614">tauri-apps/tauri#16614</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;22&nbsp;Nov&nbsp;&nbsp;·&nbsp; ★&nbsp;113.2k</sub>
+<sub><a href="https://github.com/tauri-apps/tauri/pull/16614">tauri-apps/tauri#16614</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;22&nbsp;Nov&nbsp;&nbsp;·&nbsp; ★&nbsp;113.3k</sub>
 </p>
 
 <p>
 <a href="https://github.com/traefik/traefik/pull/14253"><img src="assets/merged.svg" width="16" height="16" align="absmiddle" alt="Merged"></a>&ensp;<b>Fix Gateway API conformance report and CRS ruleset links</b><br>
-<sub><a href="https://github.com/traefik/traefik/pull/14253">traefik/traefik#14253</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;12&nbsp;Nov&nbsp;&nbsp;·&nbsp; ★&nbsp;65.7k</sub>
+<sub><a href="https://github.com/traefik/traefik/pull/14253">traefik/traefik#14253</a>&nbsp;&nbsp;·&nbsp; merged&nbsp;12&nbsp;Nov&nbsp;&nbsp;·&nbsp; ★&nbsp;65.8k</sub>
 </p>
 
 <p>
